@@ -1,0 +1,1237 @@
+agent PreviousPosition:S, CurrentPosition:C --> g = 85730, h = 0, f = 85730, action: ('moveAndDrop', 'C')
+agent PreviousPosition:E, CurrentPosition:S --> g = 85640, h = 150, f = 85790, action: ('moveAndDrop', 'S')
+agent PreviousPosition:H, CurrentPosition:E --> g = 85505, h = 225, f = 85730, action: ('moveAndDrop', 'E')
+agent PreviousPosition:H, CurrentPosition:H --> g = 85310, h = 350, f = 85660, action: ('take', <package.Package instance at 0x1c616c68>)
+agent PreviousPosition:H, CurrentPosition:H --> g = 85307, h = 350, f = 85657, action: ('take', <package.Package instance at 0x1c0ed0e0>)
+agent PreviousPosition:E, CurrentPosition:H --> g = 85305, h = 350, f = 85655, action: ('moveAndDrop', 'H')
+agent PreviousPosition:O, CurrentPosition:E --> g = 85175, h = 350, f = 85525, action: ('moveAndDrop', 'E')
+agent PreviousPosition:U, CurrentPosition:O --> g = 85035, h = 350, f = 85385, action: ('moveAndDrop', 'O')
+agent PreviousPosition:A, CurrentPosition:U --> g = 84925, h = 350, f = 85275, action: ('moveAndDrop', 'U')
+agent PreviousPosition:V, CurrentPosition:A --> g = 84755, h = 350, f = 85105, action: ('moveAndDrop', 'A')
+agent PreviousPosition:E, CurrentPosition:V --> g = 84545, h = 350, f = 84895, action: ('moveAndDrop', 'V')
+agent PreviousPosition:C, CurrentPosition:E --> g = 84295, h = 350, f = 84645, action: ('moveAndDrop', 'E')
+agent PreviousPosition:Z, CurrentPosition:C --> g = 84205, h = 350, f = 84555, action: ('moveAndDrop', 'C')
+agent PreviousPosition:Q, CurrentPosition:Z --> g = 83965, h = 350, f = 84315, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:H, CurrentPosition:Q --> g = 83785, h = 350, f = 84135, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:U, CurrentPosition:H --> g = 83625, h = 350, f = 83975, action: ('moveAndDrop', 'H')
+agent PreviousPosition:I, CurrentPosition:U --> g = 83405, h = 350, f = 83755, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AC, CurrentPosition:I --> g = 83355, h = 350, f = 83705, action: ('moveAndDrop', 'I')
+agent PreviousPosition:A, CurrentPosition:AC --> g = 83165, h = 350, f = 83515, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Q, CurrentPosition:A --> g = 82935, h = 350, f = 83285, action: ('moveAndDrop', 'A')
+agent PreviousPosition:I, CurrentPosition:Q --> g = 82865, h = 350, f = 83215, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:O, CurrentPosition:I --> g = 82735, h = 350, f = 83085, action: ('moveAndDrop', 'I')
+agent PreviousPosition:U, CurrentPosition:O --> g = 82615, h = 350, f = 82965, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Z, CurrentPosition:U --> g = 82505, h = 350, f = 82855, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:Z --> g = 82325, h = 350, f = 82675, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:O, CurrentPosition:L --> g = 82215, h = 350, f = 82565, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:O --> g = 82155, h = 350, f = 82505, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:U --> g = 82045, h = 350, f = 82395, action: ('moveAndDrop', 'U')
+agent PreviousPosition:A, CurrentPosition:I --> g = 81995, h = 350, f = 82345, action: ('moveAndDrop', 'I')
+agent PreviousPosition:C, CurrentPosition:A --> g = 81875, h = 350, f = 82225, action: ('moveAndDrop', 'A')
+agent PreviousPosition:S, CurrentPosition:C --> g = 81815, h = 410, f = 82225, action: ('moveAndDrop', 'C')
+agent PreviousPosition:L, CurrentPosition:S --> g = 81743, h = 410, f = 82153, action: ('moveAndDrop', 'S')
+agent PreviousPosition:H, CurrentPosition:L --> g = 81635, h = 494, f = 82129, action: ('moveAndDrop', 'L')
+agent PreviousPosition:H, CurrentPosition:H --> g = 81383, h = 506, f = 81889, action: ('take', <package.Package instance at 0x1a1e69e0>)
+agent PreviousPosition:A, CurrentPosition:H --> g = 81381, h = 506, f = 81887, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AC, CurrentPosition:A --> g = 81251, h = 506, f = 81757, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Q, CurrentPosition:AC --> g = 81021, h = 506, f = 81527, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:U, CurrentPosition:Q --> g = 80841, h = 506, f = 81347, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:C, CurrentPosition:U --> g = 80721, h = 506, f = 81227, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:C --> g = 80541, h = 506, f = 81047, action: ('moveAndDrop', 'C')
+agent PreviousPosition:S, CurrentPosition:O --> g = 80431, h = 506, f = 80937, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:S --> g = 80361, h = 506, f = 80867, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AD, CurrentPosition:O --> g = 80291, h = 506, f = 80797, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:AD --> g = 80221, h = 506, f = 80727, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Z, CurrentPosition:O --> g = 80151, h = 506, f = 80657, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:Z --> g = 79981, h = 506, f = 80487, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:Z, CurrentPosition:AD --> g = 79781, h = 506, f = 80287, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:Z --> g = 79581, h = 506, f = 80087, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:H, CurrentPosition:AD --> g = 79381, h = 506, f = 79887, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:H --> g = 79161, h = 506, f = 79667, action: ('moveAndDrop', 'H')
+agent PreviousPosition:S, CurrentPosition:A --> g = 79031, h = 506, f = 79537, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:S --> g = 78981, h = 506, f = 79487, action: ('moveAndDrop', 'S')
+agent PreviousPosition:I, CurrentPosition:U --> g = 78841, h = 506, f = 79347, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AD, CurrentPosition:I --> g = 78791, h = 506, f = 79297, action: ('moveAndDrop', 'I')
+agent PreviousPosition:S, CurrentPosition:AD --> g = 78641, h = 506, f = 79147, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Z, CurrentPosition:S --> g = 78541, h = 506, f = 79047, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AC, CurrentPosition:Z --> g = 78341, h = 506, f = 78847, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:V, CurrentPosition:AC --> g = 78241, h = 506, f = 78747, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:I, CurrentPosition:V --> g = 78121, h = 506, f = 78627, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:I --> g = 77951, h = 506, f = 78457, action: ('moveAndDrop', 'I')
+agent PreviousPosition:U, CurrentPosition:U --> g = 77891, h = 566, f = 78457, action: ('take', <package.Package instance at 0x186a3680>)
+agent PreviousPosition:Q, CurrentPosition:U --> g = 77889, h = 566, f = 78455, action: ('moveAndDrop', 'U')
+agent PreviousPosition:Z, CurrentPosition:Q --> g = 77769, h = 566, f = 78335, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:H, CurrentPosition:Z --> g = 77589, h = 566, f = 78155, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:Z, CurrentPosition:H --> g = 77269, h = 566, f = 77835, action: ('moveAndDrop', 'H')
+agent PreviousPosition:E, CurrentPosition:Z --> g = 76949, h = 566, f = 77515, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:E --> g = 76679, h = 566, f = 77245, action: ('moveAndDrop', 'E')
+agent PreviousPosition:U, CurrentPosition:L --> g = 76519, h = 566, f = 77085, action: ('moveAndDrop', 'L')
+agent PreviousPosition:I, CurrentPosition:U --> g = 76449, h = 566, f = 77015, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AD, CurrentPosition:I --> g = 76399, h = 566, f = 76965, action: ('moveAndDrop', 'I')
+agent PreviousPosition:A, CurrentPosition:AD --> g = 76249, h = 566, f = 76815, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:L, CurrentPosition:A --> g = 76119, h = 566, f = 76685, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Q, CurrentPosition:L --> g = 75999, h = 566, f = 76565, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:Q --> g = 75929, h = 566, f = 76495, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:U --> g = 75809, h = 566, f = 76375, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:L --> g = 75739, h = 566, f = 76305, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:E --> g = 75579, h = 566, f = 76145, action: ('moveAndDrop', 'E')
+agent PreviousPosition:C, CurrentPosition:U --> g = 75409, h = 566, f = 75975, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:C --> g = 75229, h = 566, f = 75795, action: ('moveAndDrop', 'C')
+agent PreviousPosition:E, CurrentPosition:O --> g = 75119, h = 566, f = 75685, action: ('moveAndDrop', 'O')
+agent PreviousPosition:L, CurrentPosition:E --> g = 74979, h = 566, f = 75545, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:L --> g = 74819, h = 566, f = 75385, action: ('moveAndDrop', 'L')
+agent PreviousPosition:A, CurrentPosition:V --> g = 74729, h = 566, f = 75295, action: ('moveAndDrop', 'V')
+agent PreviousPosition:H, CurrentPosition:A --> g = 74519, h = 566, f = 75085, action: ('moveAndDrop', 'A')
+agent PreviousPosition:E, CurrentPosition:H --> g = 74389, h = 566, f = 74955, action: ('moveAndDrop', 'H')
+agent PreviousPosition:S, CurrentPosition:E --> g = 74259, h = 566, f = 74825, action: ('moveAndDrop', 'E')
+agent PreviousPosition:U, CurrentPosition:S --> g = 74169, h = 566, f = 74735, action: ('moveAndDrop', 'S')
+agent PreviousPosition:Q, CurrentPosition:U --> g = 74029, h = 566, f = 74595, action: ('moveAndDrop', 'U')
+agent PreviousPosition:C, CurrentPosition:Q --> g = 73909, h = 566, f = 74475, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:S, CurrentPosition:C --> g = 73829, h = 566, f = 74395, action: ('moveAndDrop', 'C')
+agent PreviousPosition:H, CurrentPosition:S --> g = 73769, h = 566, f = 74335, action: ('moveAndDrop', 'S')
+agent PreviousPosition:A, CurrentPosition:H --> g = 73629, h = 566, f = 74195, action: ('moveAndDrop', 'H')
+agent PreviousPosition:H, CurrentPosition:A --> g = 73499, h = 566, f = 74065, action: ('moveAndDrop', 'A')
+agent PreviousPosition:I, CurrentPosition:H --> g = 73369, h = 566, f = 73935, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AC, CurrentPosition:I --> g = 73199, h = 566, f = 73765, action: ('moveAndDrop', 'I')
+agent PreviousPosition:AD, CurrentPosition:AC --> g = 73009, h = 566, f = 73575, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:A, CurrentPosition:AD --> g = 72809, h = 566, f = 73375, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Z, CurrentPosition:A --> g = 72679, h = 566, f = 73245, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:Z --> g = 72449, h = 566, f = 73015, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:S, CurrentPosition:U --> g = 72269, h = 566, f = 72835, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:S --> g = 72129, h = 566, f = 72695, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:E --> g = 72039, h = 566, f = 72605, action: ('moveAndDrop', 'E')
+agent PreviousPosition:E, CurrentPosition:S --> g = 71949, h = 566, f = 72515, action: ('moveAndDrop', 'S')
+agent PreviousPosition:O, CurrentPosition:E --> g = 71859, h = 566, f = 72425, action: ('moveAndDrop', 'E')
+agent PreviousPosition:AC, CurrentPosition:O --> g = 71719, h = 566, f = 72285, action: ('moveAndDrop', 'O')
+agent PreviousPosition:H, CurrentPosition:AC --> g = 71549, h = 566, f = 72115, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:C, CurrentPosition:H --> g = 71229, h = 566, f = 71795, action: ('moveAndDrop', 'H')
+agent PreviousPosition:H, CurrentPosition:C --> g = 71089, h = 566, f = 71655, action: ('moveAndDrop', 'C')
+agent PreviousPosition:AC, CurrentPosition:H --> g = 70949, h = 566, f = 71515, action: ('moveAndDrop', 'H')
+agent PreviousPosition:E, CurrentPosition:AC --> g = 70629, h = 566, f = 71195, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:A, CurrentPosition:E --> g = 70359, h = 566, f = 70925, action: ('moveAndDrop', 'E')
+agent PreviousPosition:E, CurrentPosition:A --> g = 70279, h = 566, f = 70845, action: ('moveAndDrop', 'A')
+agent PreviousPosition:H, CurrentPosition:E --> g = 70199, h = 566, f = 70765, action: ('moveAndDrop', 'E')
+agent PreviousPosition:S, CurrentPosition:H --> g = 70069, h = 566, f = 70635, action: ('moveAndDrop', 'H')
+agent PreviousPosition:Q, CurrentPosition:S --> g = 69929, h = 566, f = 70495, action: ('moveAndDrop', 'S')
+agent PreviousPosition:E, CurrentPosition:Q --> g = 69889, h = 566, f = 70455, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AD, CurrentPosition:E --> g = 69779, h = 566, f = 70345, action: ('moveAndDrop', 'E')
+agent PreviousPosition:A, CurrentPosition:AD --> g = 69609, h = 566, f = 70175, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:E, CurrentPosition:A --> g = 69479, h = 566, f = 70045, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Z, CurrentPosition:E --> g = 69399, h = 566, f = 69965, action: ('moveAndDrop', 'E')
+agent PreviousPosition:H, CurrentPosition:Z --> g = 69129, h = 566, f = 69695, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:I, CurrentPosition:H --> g = 68809, h = 566, f = 69375, action: ('moveAndDrop', 'H')
+agent PreviousPosition:U, CurrentPosition:I --> g = 68639, h = 566, f = 69205, action: ('moveAndDrop', 'I')
+agent PreviousPosition:AD, CurrentPosition:U --> g = 68589, h = 566, f = 69155, action: ('moveAndDrop', 'U')
+agent PreviousPosition:V, CurrentPosition:AD --> g = 68449, h = 566, f = 69015, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:V --> g = 68269, h = 566, f = 68835, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AD, CurrentPosition:A --> g = 68059, h = 566, f = 68625, action: ('moveAndDrop', 'A')
+agent PreviousPosition:AC, CurrentPosition:AD --> g = 67929, h = 566, f = 68495, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:AC --> g = 67729, h = 566, f = 68295, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:AD --> g = 67529, h = 566, f = 68095, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:H, CurrentPosition:Z --> g = 67329, h = 566, f = 67895, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:O, CurrentPosition:H --> g = 67009, h = 566, f = 67575, action: ('moveAndDrop', 'H')
+agent PreviousPosition:I, CurrentPosition:O --> g = 66819, h = 566, f = 67385, action: ('moveAndDrop', 'O')
+agent PreviousPosition:H, CurrentPosition:I --> g = 66699, h = 566, f = 67265, action: ('moveAndDrop', 'I')
+agent PreviousPosition:U, CurrentPosition:H --> g = 66529, h = 566, f = 67095, action: ('moveAndDrop', 'H')
+agent PreviousPosition:C, CurrentPosition:U --> g = 66309, h = 566, f = 66875, action: ('moveAndDrop', 'U')
+agent PreviousPosition:Q, CurrentPosition:C --> g = 66129, h = 566, f = 66695, action: ('moveAndDrop', 'C')
+agent PreviousPosition:A, CurrentPosition:Q --> g = 66049, h = 566, f = 66615, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:H, CurrentPosition:A --> g = 65979, h = 566, f = 66545, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:H --> g = 65849, h = 566, f = 66415, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:U --> g = 65629, h = 566, f = 66195, action: ('moveAndDrop', 'U')
+agent PreviousPosition:I, CurrentPosition:V --> g = 65469, h = 566, f = 66035, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Q, CurrentPosition:I --> g = 65299, h = 566, f = 65865, action: ('moveAndDrop', 'I')
+agent PreviousPosition:C, CurrentPosition:Q --> g = 65169, h = 566, f = 65735, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:S, CurrentPosition:C --> g = 65089, h = 566, f = 65655, action: ('moveAndDrop', 'C')
+agent PreviousPosition:O, CurrentPosition:S --> g = 65029, h = 566, f = 65595, action: ('moveAndDrop', 'S')
+agent PreviousPosition:H, CurrentPosition:O --> g = 64959, h = 566, f = 65525, action: ('moveAndDrop', 'O')
+agent PreviousPosition:S, CurrentPosition:H --> g = 64769, h = 566, f = 65335, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AD, CurrentPosition:S --> g = 64629, h = 566, f = 65195, action: ('moveAndDrop', 'S')
+agent PreviousPosition:O, CurrentPosition:AD --> g = 64529, h = 566, f = 65095, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:C, CurrentPosition:O --> g = 64459, h = 566, f = 65025, action: ('moveAndDrop', 'O')
+agent PreviousPosition:S, CurrentPosition:C --> g = 64349, h = 566, f = 64915, action: ('moveAndDrop', 'C')
+agent PreviousPosition:E, CurrentPosition:S --> g = 64289, h = 566, f = 64855, action: ('moveAndDrop', 'S')
+agent PreviousPosition:C, CurrentPosition:E --> g = 64199, h = 566, f = 64765, action: ('moveAndDrop', 'E')
+agent PreviousPosition:S, CurrentPosition:C --> g = 64109, h = 566, f = 64675, action: ('moveAndDrop', 'C')
+agent PreviousPosition:L, CurrentPosition:S --> g = 64049, h = 566, f = 64615, action: ('moveAndDrop', 'S')
+agent PreviousPosition:V, CurrentPosition:L --> g = 63959, h = 566, f = 64525, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AC, CurrentPosition:V --> g = 63869, h = 566, f = 64435, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Q, CurrentPosition:AC --> g = 63749, h = 566, f = 64315, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AC, CurrentPosition:Q --> g = 63569, h = 566, f = 64135, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AD, CurrentPosition:AC --> g = 63389, h = 566, f = 63955, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:H, CurrentPosition:AD --> g = 63189, h = 566, f = 63755, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AC, CurrentPosition:H --> g = 62969, h = 566, f = 63535, action: ('moveAndDrop', 'H')
+agent PreviousPosition:I, CurrentPosition:AC --> g = 62649, h = 566, f = 63215, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:I --> g = 62459, h = 566, f = 63025, action: ('moveAndDrop', 'I')
+agent PreviousPosition:S, CurrentPosition:Z --> g = 62269, h = 566, f = 62835, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AD, CurrentPosition:S --> g = 62069, h = 566, f = 62635, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:AD --> g = 61969, h = 566, f = 62535, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:L, CurrentPosition:S --> g = 61869, h = 566, f = 62435, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AC, CurrentPosition:L --> g = 61779, h = 566, f = 62345, action: ('moveAndDrop', 'L')
+agent PreviousPosition:C, CurrentPosition:AC --> g = 61669, h = 566, f = 62235, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:H, CurrentPosition:C --> g = 61429, h = 566, f = 61995, action: ('moveAndDrop', 'C')
+agent PreviousPosition:I, CurrentPosition:H --> g = 61289, h = 566, f = 61855, action: ('moveAndDrop', 'H')
+agent PreviousPosition:O, CurrentPosition:I --> g = 61119, h = 566, f = 61685, action: ('moveAndDrop', 'I')
+agent PreviousPosition:C, CurrentPosition:O --> g = 60999, h = 566, f = 61565, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Q, CurrentPosition:C --> g = 60867, h = 698, f = 61565, action: ('moveAndDrop', 'C')
+agent PreviousPosition:AC, CurrentPosition:Q --> g = 60755, h = 722, f = 61477, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AC, CurrentPosition:AC --> g = 60503, h = 1058, f = 61561, action: ('take', <package.Package instance at 0x1520bd40>)
+agent PreviousPosition:AC, CurrentPosition:AC --> g = 60501, h = 1058, f = 61559, action: ('take', <package.Package instance at 0x1521f5a8>)
+agent PreviousPosition:S, CurrentPosition:AC --> g = 60499, h = 1058, f = 61557, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AC, CurrentPosition:S --> g = 60299, h = 1058, f = 61357, action: ('moveAndDrop', 'S')
+agent PreviousPosition:I, CurrentPosition:AC --> g = 60099, h = 1058, f = 61157, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AC, CurrentPosition:I --> g = 59909, h = 1058, f = 60967, action: ('moveAndDrop', 'I')
+agent PreviousPosition:H, CurrentPosition:AC --> g = 59719, h = 1058, f = 60777, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:H --> g = 59399, h = 1058, f = 60457, action: ('moveAndDrop', 'H')
+agent PreviousPosition:E, CurrentPosition:E --> g = 59230, h = 1227, f = 60457, action: ('take', <package.Package instance at 0x13a73cb0>)
+agent PreviousPosition:AD, CurrentPosition:E --> g = 59227, h = 1227, f = 60454, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:AD --> g = 59057, h = 1227, f = 60284, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:V --> g = 58877, h = 1227, f = 60104, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:A --> g = 58667, h = 1227, f = 59894, action: ('moveAndDrop', 'A')
+agent PreviousPosition:I, CurrentPosition:U --> g = 58497, h = 1227, f = 59724, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AC, CurrentPosition:I --> g = 58447, h = 1227, f = 59674, action: ('moveAndDrop', 'I')
+agent PreviousPosition:Z, CurrentPosition:AC --> g = 58257, h = 1227, f = 59484, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:Z --> g = 58137, h = 1347, f = 59484, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:E, CurrentPosition:E --> g = 57813, h = 1551, f = 59364, action: ('take', <package.Package instance at 0x14591998>)
+agent PreviousPosition:U, CurrentPosition:E --> g = 57811, h = 1551, f = 59362, action: ('moveAndDrop', 'E')
+agent PreviousPosition:AC, CurrentPosition:U --> g = 57641, h = 1551, f = 59192, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:AC --> g = 57461, h = 1551, f = 59012, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:S, CurrentPosition:E --> g = 57191, h = 1551, f = 58742, action: ('moveAndDrop', 'E')
+agent PreviousPosition:O, CurrentPosition:S --> g = 57101, h = 1551, f = 58652, action: ('moveAndDrop', 'S')
+agent PreviousPosition:V, CurrentPosition:O --> g = 57031, h = 1551, f = 58582, action: ('moveAndDrop', 'O')
+agent PreviousPosition:H, CurrentPosition:V --> g = 56881, h = 1551, f = 58432, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Z, CurrentPosition:H --> g = 56581, h = 1551, f = 58132, action: ('moveAndDrop', 'H')
+agent PreviousPosition:U, CurrentPosition:Z --> g = 56261, h = 1551, f = 57812, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AC, CurrentPosition:U --> g = 56081, h = 1551, f = 57632, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:AC --> g = 55901, h = 1551, f = 57452, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:L --> g = 55791, h = 1551, f = 57342, action: ('moveAndDrop', 'L')
+agent PreviousPosition:O, CurrentPosition:Z --> g = 55681, h = 1551, f = 57232, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:O --> g = 55511, h = 1551, f = 57062, action: ('moveAndDrop', 'O')
+agent PreviousPosition:V, CurrentPosition:L --> g = 55451, h = 1551, f = 57002, action: ('moveAndDrop', 'L')
+agent PreviousPosition:A, CurrentPosition:V --> g = 55361, h = 1551, f = 56912, action: ('moveAndDrop', 'V')
+agent PreviousPosition:H, CurrentPosition:A --> g = 55151, h = 1551, f = 56702, action: ('moveAndDrop', 'A')
+agent PreviousPosition:O, CurrentPosition:H --> g = 55021, h = 1551, f = 56572, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:O --> g = 54831, h = 1551, f = 56382, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:V --> g = 54681, h = 1551, f = 56232, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AC, CurrentPosition:AD --> g = 54501, h = 1551, f = 56052, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Z, CurrentPosition:AC --> g = 54301, h = 1551, f = 55852, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:L, CurrentPosition:Z --> g = 54201, h = 1551, f = 55752, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AD, CurrentPosition:L --> g = 54091, h = 1551, f = 55642, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:AD --> g = 54001, h = 1551, f = 55552, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:U --> g = 53861, h = 1551, f = 55412, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:A --> g = 53691, h = 1551, f = 55242, action: ('moveAndDrop', 'A')
+agent PreviousPosition:S, CurrentPosition:O --> g = 53591, h = 1551, f = 55142, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:S --> g = 53521, h = 1551, f = 55072, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:O --> g = 53451, h = 1551, f = 55002, action: ('moveAndDrop', 'O')
+agent PreviousPosition:C, CurrentPosition:S --> g = 53381, h = 1551, f = 54932, action: ('moveAndDrop', 'S')
+agent PreviousPosition:L, CurrentPosition:C --> g = 53321, h = 1551, f = 54872, action: ('moveAndDrop', 'C')
+agent PreviousPosition:C, CurrentPosition:L --> g = 53191, h = 1551, f = 54742, action: ('moveAndDrop', 'L')
+agent PreviousPosition:A, CurrentPosition:C --> g = 53061, h = 1551, f = 54612, action: ('moveAndDrop', 'C')
+agent PreviousPosition:AC, CurrentPosition:A --> g = 53011, h = 1551, f = 54562, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:AC --> g = 52781, h = 1551, f = 54332, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:I, CurrentPosition:U --> g = 52601, h = 1551, f = 54152, action: ('moveAndDrop', 'U')
+agent PreviousPosition:A, CurrentPosition:I --> g = 52551, h = 1551, f = 54102, action: ('moveAndDrop', 'I')
+agent PreviousPosition:H, CurrentPosition:A --> g = 52431, h = 1551, f = 53982, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:H --> g = 52301, h = 1551, f = 53852, action: ('moveAndDrop', 'H')
+agent PreviousPosition:I, CurrentPosition:U --> g = 52081, h = 1551, f = 53632, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:I --> g = 52031, h = 1551, f = 53582, action: ('moveAndDrop', 'I')
+agent PreviousPosition:E, CurrentPosition:L --> g = 51951, h = 1551, f = 53502, action: ('moveAndDrop', 'L')
+agent PreviousPosition:H, CurrentPosition:E --> g = 51791, h = 1551, f = 53342, action: ('moveAndDrop', 'E')
+agent PreviousPosition:Q, CurrentPosition:H --> g = 51661, h = 1551, f = 53212, action: ('moveAndDrop', 'H')
+agent PreviousPosition:O, CurrentPosition:Q --> g = 51501, h = 1551, f = 53052, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:O --> g = 51451, h = 1551, f = 53002, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:L --> g = 51391, h = 1551, f = 52942, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Z, CurrentPosition:I --> g = 51311, h = 1551, f = 52862, action: ('moveAndDrop', 'I')
+agent PreviousPosition:I, CurrentPosition:Z --> g = 51121, h = 1551, f = 52672, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:H, CurrentPosition:I --> g = 50931, h = 1551, f = 52482, action: ('moveAndDrop', 'I')
+agent PreviousPosition:AC, CurrentPosition:H --> g = 50761, h = 1551, f = 52312, action: ('moveAndDrop', 'H')
+agent PreviousPosition:I, CurrentPosition:AC --> g = 50441, h = 1551, f = 51992, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AD, CurrentPosition:I --> g = 50251, h = 1551, f = 51802, action: ('moveAndDrop', 'I')
+agent PreviousPosition:E, CurrentPosition:AD --> g = 50101, h = 1551, f = 51652, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:E --> g = 49931, h = 1551, f = 51482, action: ('moveAndDrop', 'E')
+agent PreviousPosition:L, CurrentPosition:AD --> g = 49761, h = 1551, f = 51312, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:V, CurrentPosition:L --> g = 49671, h = 1551, f = 51222, action: ('moveAndDrop', 'L')
+agent PreviousPosition:A, CurrentPosition:V --> g = 49581, h = 1551, f = 51132, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:A --> g = 49371, h = 1551, f = 50922, action: ('moveAndDrop', 'A')
+agent PreviousPosition:H, CurrentPosition:U --> g = 49201, h = 1551, f = 50752, action: ('moveAndDrop', 'U')
+agent PreviousPosition:C, CurrentPosition:H --> g = 48981, h = 1551, f = 50532, action: ('moveAndDrop', 'H')
+agent PreviousPosition:H, CurrentPosition:C --> g = 48841, h = 1551, f = 50392, action: ('moveAndDrop', 'C')
+agent PreviousPosition:V, CurrentPosition:H --> g = 48701, h = 1551, f = 50252, action: ('moveAndDrop', 'H')
+agent PreviousPosition:H, CurrentPosition:V --> g = 48401, h = 1551, f = 49952, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AD, CurrentPosition:H --> g = 48101, h = 1551, f = 49652, action: ('moveAndDrop', 'H')
+agent PreviousPosition:O, CurrentPosition:AD --> g = 47881, h = 1551, f = 49432, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:U, CurrentPosition:O --> g = 47811, h = 1551, f = 49362, action: ('moveAndDrop', 'O')
+agent PreviousPosition:V, CurrentPosition:U --> g = 47701, h = 1551, f = 49252, action: ('moveAndDrop', 'U')
+agent PreviousPosition:C, CurrentPosition:V --> g = 47541, h = 1551, f = 49092, action: ('moveAndDrop', 'V')
+agent PreviousPosition:H, CurrentPosition:C --> g = 47321, h = 1551, f = 48872, action: ('moveAndDrop', 'C')
+agent PreviousPosition:U, CurrentPosition:H --> g = 47181, h = 1551, f = 48732, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AD, CurrentPosition:U --> g = 46961, h = 1551, f = 48512, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:AD --> g = 46821, h = 1551, f = 48372, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:E --> g = 46651, h = 1551, f = 48202, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:AD --> g = 46481, h = 1551, f = 48032, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AC, CurrentPosition:V --> g = 46301, h = 1551, f = 47852, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AD, CurrentPosition:AC --> g = 46181, h = 1551, f = 47732, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:AD --> g = 45981, h = 1551, f = 47532, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:U, CurrentPosition:E --> g = 45811, h = 1551, f = 47362, action: ('moveAndDrop', 'E')
+agent PreviousPosition:I, CurrentPosition:U --> g = 45641, h = 1551, f = 47192, action: ('moveAndDrop', 'U')
+agent PreviousPosition:S, CurrentPosition:I --> g = 45581, h = 1611, f = 47192, action: ('moveAndDrop', 'I')
+agent PreviousPosition:E, CurrentPosition:S --> g = 45425, h = 1719, f = 47144, action: ('moveAndDrop', 'S')
+agent PreviousPosition:A, CurrentPosition:E --> g = 45317, h = 1755, f = 47072, action: ('moveAndDrop', 'E')
+agent PreviousPosition:A, CurrentPosition:A --> g = 45205, h = 1851, f = 47056, action: ('take', <package.Package instance at 0xf3547a0>)
+agent PreviousPosition:A, CurrentPosition:A --> g = 45203, h = 1851, f = 47054, action: ('take', <package.Package instance at 0xe0e0c68>)
+agent PreviousPosition:L, CurrentPosition:A --> g = 45201, h = 1851, f = 47052, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Q, CurrentPosition:L --> g = 45081, h = 1851, f = 46932, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Z, CurrentPosition:Q --> g = 45011, h = 1851, f = 46862, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:V, CurrentPosition:Z --> g = 44831, h = 1851, f = 46682, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:Q, CurrentPosition:V --> g = 44711, h = 1851, f = 46562, action: ('moveAndDrop', 'V')
+agent PreviousPosition:I, CurrentPosition:Q --> g = 44551, h = 1851, f = 46402, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:H, CurrentPosition:I --> g = 44421, h = 1851, f = 46272, action: ('moveAndDrop', 'I')
+agent PreviousPosition:A, CurrentPosition:H --> g = 44251, h = 1851, f = 46102, action: ('moveAndDrop', 'H')
+agent PreviousPosition:Z, CurrentPosition:A --> g = 44121, h = 1851, f = 45972, action: ('moveAndDrop', 'A')
+agent PreviousPosition:O, CurrentPosition:Z --> g = 43891, h = 1851, f = 45742, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:V, CurrentPosition:O --> g = 43721, h = 1851, f = 45572, action: ('moveAndDrop', 'O')
+agent PreviousPosition:S, CurrentPosition:V --> g = 43571, h = 1851, f = 45422, action: ('moveAndDrop', 'V')
+agent PreviousPosition:V, CurrentPosition:S --> g = 43391, h = 1851, f = 45242, action: ('moveAndDrop', 'S')
+agent PreviousPosition:O, CurrentPosition:V --> g = 43211, h = 1851, f = 45062, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AC, CurrentPosition:O --> g = 43061, h = 1851, f = 44912, action: ('moveAndDrop', 'O')
+agent PreviousPosition:U, CurrentPosition:AC --> g = 42891, h = 1851, f = 44742, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AD, CurrentPosition:U --> g = 42711, h = 1851, f = 44562, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:AD --> g = 42571, h = 1851, f = 44422, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:O --> g = 42501, h = 1851, f = 44352, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:A --> g = 42401, h = 1851, f = 44252, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Q, CurrentPosition:AD --> g = 42271, h = 1851, f = 44122, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:Q --> g = 42191, h = 1851, f = 44042, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:AD --> g = 42111, h = 1851, f = 43962, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:I, CurrentPosition:L --> g = 42021, h = 1851, f = 43872, action: ('moveAndDrop', 'L')
+agent PreviousPosition:O, CurrentPosition:I --> g = 41941, h = 1851, f = 43792, action: ('moveAndDrop', 'I')
+agent PreviousPosition:L, CurrentPosition:O --> g = 41821, h = 1851, f = 43672, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:L --> g = 41761, h = 1851, f = 43612, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Q, CurrentPosition:O --> g = 41701, h = 1851, f = 43552, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:Q --> g = 41641, h = 1911, f = 43552, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:Z, CurrentPosition:I --> g = 41485, h = 1995, f = 43480, action: ('moveAndDrop', 'I')
+agent PreviousPosition:Z, CurrentPosition:Z --> g = 41257, h = 2055, f = 43312, action: ('take', <package.Package instance at 0xf11d758>)
+agent PreviousPosition:A, CurrentPosition:Z --> g = 41255, h = 2055, f = 43310, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:Q, CurrentPosition:A --> g = 41025, h = 2055, f = 43080, action: ('moveAndDrop', 'A')
+agent PreviousPosition:O, CurrentPosition:Q --> g = 40955, h = 2055, f = 43010, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:O --> g = 40905, h = 2055, f = 42960, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Z, CurrentPosition:L --> g = 40845, h = 2055, f = 42900, action: ('moveAndDrop', 'L')
+agent PreviousPosition:C, CurrentPosition:Z --> g = 40735, h = 2055, f = 42790, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:C --> g = 40495, h = 2055, f = 42550, action: ('moveAndDrop', 'C')
+agent PreviousPosition:V, CurrentPosition:L --> g = 40365, h = 2055, f = 42420, action: ('moveAndDrop', 'L')
+agent PreviousPosition:L, CurrentPosition:V --> g = 40275, h = 2055, f = 42330, action: ('moveAndDrop', 'V')
+agent PreviousPosition:A, CurrentPosition:L --> g = 40185, h = 2055, f = 42240, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Q, CurrentPosition:A --> g = 40065, h = 2055, f = 42120, action: ('moveAndDrop', 'A')
+agent PreviousPosition:AD, CurrentPosition:Q --> g = 39995, h = 2055, f = 42050, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:AD --> g = 39915, h = 2055, f = 41970, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:V, CurrentPosition:L --> g = 39825, h = 2055, f = 41880, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AD, CurrentPosition:V --> g = 39735, h = 2055, f = 41790, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:AD --> g = 39555, h = 2055, f = 41610, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:E, CurrentPosition:U --> g = 39415, h = 2055, f = 41470, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:E --> g = 39245, h = 2055, f = 41300, action: ('moveAndDrop', 'E')
+agent PreviousPosition:O, CurrentPosition:L --> g = 39085, h = 2055, f = 41140, action: ('moveAndDrop', 'L')
+agent PreviousPosition:C, CurrentPosition:O --> g = 39025, h = 2055, f = 41080, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:C --> g = 38915, h = 2055, f = 40970, action: ('moveAndDrop', 'C')
+agent PreviousPosition:A, CurrentPosition:AD --> g = 38775, h = 2055, f = 40830, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AC, CurrentPosition:A --> g = 38645, h = 2055, f = 40700, action: ('moveAndDrop', 'A')
+agent PreviousPosition:A, CurrentPosition:AC --> g = 38415, h = 2055, f = 40470, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:O, CurrentPosition:A --> g = 38185, h = 2055, f = 40240, action: ('moveAndDrop', 'A')
+agent PreviousPosition:S, CurrentPosition:O --> g = 38085, h = 2055, f = 40140, action: ('moveAndDrop', 'O')
+agent PreviousPosition:A, CurrentPosition:S --> g = 38015, h = 2055, f = 40070, action: ('moveAndDrop', 'S')
+agent PreviousPosition:E, CurrentPosition:A --> g = 37965, h = 2055, f = 40020, action: ('moveAndDrop', 'A')
+agent PreviousPosition:S, CurrentPosition:E --> g = 37885, h = 2055, f = 39940, action: ('moveAndDrop', 'E')
+agent PreviousPosition:AD, CurrentPosition:S --> g = 37795, h = 2055, f = 39850, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:AD --> g = 37695, h = 2055, f = 39750, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:V, CurrentPosition:S --> g = 37595, h = 2055, f = 39650, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:V --> g = 37415, h = 2055, f = 39470, action: ('moveAndDrop', 'V')
+agent PreviousPosition:C, CurrentPosition:S --> g = 37235, h = 2055, f = 39290, action: ('moveAndDrop', 'S')
+agent PreviousPosition:Z, CurrentPosition:C --> g = 37175, h = 2055, f = 39230, action: ('moveAndDrop', 'C')
+agent PreviousPosition:Z, CurrentPosition:Z --> g = 36887, h = 2343, f = 39230, action: ('take', <package.Package instance at 0xdcfb320>)
+agent PreviousPosition:U, CurrentPosition:Z --> g = 36885, h = 2343, f = 39228, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:E, CurrentPosition:U --> g = 36705, h = 2343, f = 39048, action: ('moveAndDrop', 'U')
+agent PreviousPosition:H, CurrentPosition:E --> g = 36535, h = 2343, f = 38878, action: ('moveAndDrop', 'E')
+agent PreviousPosition:Q, CurrentPosition:H --> g = 36405, h = 2343, f = 38748, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:Q --> g = 36245, h = 2343, f = 38588, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:O, CurrentPosition:V --> g = 36085, h = 2343, f = 38428, action: ('moveAndDrop', 'V')
+agent PreviousPosition:A, CurrentPosition:O --> g = 35935, h = 2343, f = 38278, action: ('moveAndDrop', 'O')
+agent PreviousPosition:V, CurrentPosition:A --> g = 35835, h = 2343, f = 38178, action: ('moveAndDrop', 'A')
+agent PreviousPosition:L, CurrentPosition:V --> g = 35625, h = 2343, f = 37968, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AC, CurrentPosition:L --> g = 35535, h = 2343, f = 37878, action: ('moveAndDrop', 'L')
+agent PreviousPosition:I, CurrentPosition:AC --> g = 35425, h = 2343, f = 37768, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:A, CurrentPosition:I --> g = 35235, h = 2343, f = 37578, action: ('moveAndDrop', 'I')
+agent PreviousPosition:S, CurrentPosition:A --> g = 35115, h = 2343, f = 37458, action: ('moveAndDrop', 'A')
+agent PreviousPosition:V, CurrentPosition:S --> g = 35065, h = 2343, f = 37408, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AC, CurrentPosition:V --> g = 34885, h = 2343, f = 37228, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Q, CurrentPosition:AC --> g = 34765, h = 2343, f = 37108, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AC, CurrentPosition:Q --> g = 34585, h = 2343, f = 36928, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:U, CurrentPosition:AC --> g = 34405, h = 2343, f = 36748, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:U --> g = 34225, h = 2343, f = 36568, action: ('moveAndDrop', 'U')
+agent PreviousPosition:C, CurrentPosition:E --> g = 34055, h = 2343, f = 36398, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:C --> g = 33965, h = 2343, f = 36308, action: ('moveAndDrop', 'C')
+agent PreviousPosition:L, CurrentPosition:V --> g = 33745, h = 2343, f = 36088, action: ('moveAndDrop', 'V')
+agent PreviousPosition:A, CurrentPosition:L --> g = 33655, h = 2343, f = 35998, action: ('moveAndDrop', 'L')
+agent PreviousPosition:V, CurrentPosition:A --> g = 33535, h = 2343, f = 35878, action: ('moveAndDrop', 'A')
+agent PreviousPosition:E, CurrentPosition:V --> g = 33325, h = 2343, f = 35668, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AD, CurrentPosition:E --> g = 33075, h = 2343, f = 35418, action: ('moveAndDrop', 'E')
+agent PreviousPosition:C, CurrentPosition:AD --> g = 32905, h = 2343, f = 35248, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:E, CurrentPosition:C --> g = 32765, h = 2343, f = 35108, action: ('moveAndDrop', 'C')
+agent PreviousPosition:O, CurrentPosition:E --> g = 32675, h = 2343, f = 35018, action: ('moveAndDrop', 'E')
+agent PreviousPosition:C, CurrentPosition:O --> g = 32535, h = 2343, f = 34878, action: ('moveAndDrop', 'O')
+agent PreviousPosition:A, CurrentPosition:C --> g = 32425, h = 2343, f = 34768, action: ('moveAndDrop', 'C')
+agent PreviousPosition:L, CurrentPosition:A --> g = 32375, h = 2343, f = 34718, action: ('moveAndDrop', 'A')
+agent PreviousPosition:Z, CurrentPosition:L --> g = 32255, h = 2343, f = 34598, action: ('moveAndDrop', 'L')
+agent PreviousPosition:A, CurrentPosition:Z --> g = 32145, h = 2343, f = 34488, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:V, CurrentPosition:A --> g = 31915, h = 2343, f = 34258, action: ('moveAndDrop', 'A')
+agent PreviousPosition:O, CurrentPosition:V --> g = 31705, h = 2343, f = 34048, action: ('moveAndDrop', 'V')
+agent PreviousPosition:V, CurrentPosition:O --> g = 31555, h = 2343, f = 33898, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:V --> g = 31405, h = 2343, f = 33748, action: ('moveAndDrop', 'V')
+agent PreviousPosition:V, CurrentPosition:I --> g = 31235, h = 2343, f = 33578, action: ('moveAndDrop', 'I')
+agent PreviousPosition:Q, CurrentPosition:V --> g = 31065, h = 2343, f = 33408, action: ('moveAndDrop', 'V')
+agent PreviousPosition:V, CurrentPosition:Q --> g = 30905, h = 2343, f = 33248, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:U, CurrentPosition:V --> g = 30745, h = 2343, f = 33088, action: ('moveAndDrop', 'V')
+agent PreviousPosition:H, CurrentPosition:U --> g = 30585, h = 2343, f = 32928, action: ('moveAndDrop', 'U')
+agent PreviousPosition:Q, CurrentPosition:H --> g = 30365, h = 2343, f = 32708, action: ('moveAndDrop', 'H')
+agent PreviousPosition:C, CurrentPosition:Q --> g = 30205, h = 2343, f = 32548, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:I, CurrentPosition:C --> g = 30125, h = 2343, f = 32468, action: ('moveAndDrop', 'C')
+agent PreviousPosition:A, CurrentPosition:I --> g = 29995, h = 2343, f = 32338, action: ('moveAndDrop', 'I')
+agent PreviousPosition:AD, CurrentPosition:A --> g = 29875, h = 2343, f = 32218, action: ('moveAndDrop', 'A')
+agent PreviousPosition:A, CurrentPosition:AD --> g = 29745, h = 2343, f = 32088, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Q, CurrentPosition:A --> g = 29615, h = 2343, f = 31958, action: ('moveAndDrop', 'A')
+agent PreviousPosition:U, CurrentPosition:Q --> g = 29545, h = 2343, f = 31888, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:U --> g = 29425, h = 2343, f = 31768, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:L --> g = 29355, h = 2343, f = 31698, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AD, CurrentPosition:O --> g = 29283, h = 2415, f = 31698, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:AD --> g = 29199, h = 2451, f = 31650, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:S, CurrentPosition:I --> g = 29019, h = 2439, f = 31458, action: ('moveAndDrop', 'I')
+agent PreviousPosition:I, CurrentPosition:S --> g = 28863, h = 2451, f = 31314, action: ('moveAndDrop', 'S')
+agent PreviousPosition:U, CurrentPosition:I --> g = 28707, h = 2439, f = 31146, action: ('moveAndDrop', 'I')
+agent PreviousPosition:O, CurrentPosition:U --> g = 28647, h = 2427, f = 31074, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:O --> g = 28515, h = 2415, f = 30930, action: ('moveAndDrop', 'O')
+agent PreviousPosition:A, CurrentPosition:E --> g = 28347, h = 2535, f = 30882, action: ('moveAndDrop', 'E')
+agent PreviousPosition:A, CurrentPosition:A --> g = 28235, h = 2583, f = 30818, action: ('take', <package.Package instance at 0x9c36a70>)
+agent PreviousPosition:A, CurrentPosition:A --> g = 28233, h = 2583, f = 30816, action: ('take', <package.Package instance at 0x925bef0>)
+agent PreviousPosition:O, CurrentPosition:A --> g = 28231, h = 2583, f = 30814, action: ('moveAndDrop', 'A')
+agent PreviousPosition:E, CurrentPosition:O --> g = 28131, h = 2583, f = 30714, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:E --> g = 27991, h = 2583, f = 30574, action: ('moveAndDrop', 'E')
+agent PreviousPosition:E, CurrentPosition:O --> g = 27851, h = 2583, f = 30434, action: ('moveAndDrop', 'O')
+agent PreviousPosition:E, CurrentPosition:E --> g = 27683, h = 2751, f = 30434, action: ('take', <package.Package instance at 0x7f11cb4e3290>)
+agent PreviousPosition:I, CurrentPosition:E --> g = 27681, h = 2751, f = 30432, action: ('moveAndDrop', 'E')
+agent PreviousPosition:H, CurrentPosition:I --> g = 27561, h = 2751, f = 30312, action: ('moveAndDrop', 'I')
+agent PreviousPosition:O, CurrentPosition:H --> g = 27391, h = 2751, f = 30142, action: ('moveAndDrop', 'H')
+agent PreviousPosition:A, CurrentPosition:O --> g = 27201, h = 2751, f = 29952, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Z, CurrentPosition:A --> g = 27101, h = 2751, f = 29852, action: ('moveAndDrop', 'A')
+agent PreviousPosition:I, CurrentPosition:Z --> g = 26871, h = 2751, f = 29622, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AD, CurrentPosition:I --> g = 26681, h = 2751, f = 29432, action: ('moveAndDrop', 'I')
+agent PreviousPosition:V, CurrentPosition:AD --> g = 26531, h = 2751, f = 29282, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Q, CurrentPosition:V --> g = 26351, h = 2751, f = 29102, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Z, CurrentPosition:Q --> g = 26191, h = 2751, f = 28942, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:V, CurrentPosition:Z --> g = 26011, h = 2751, f = 28762, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AC, CurrentPosition:V --> g = 25891, h = 2751, f = 28642, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:AC --> g = 25771, h = 2751, f = 28522, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:U --> g = 25591, h = 2751, f = 28342, action: ('moveAndDrop', 'U')
+agent PreviousPosition:V, CurrentPosition:Z --> g = 25411, h = 2751, f = 28162, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:E, CurrentPosition:V --> g = 25291, h = 2751, f = 28042, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AC, CurrentPosition:E --> g = 25041, h = 2751, f = 27792, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:AC --> g = 24771, h = 2751, f = 27522, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:AD, CurrentPosition:V --> g = 24651, h = 2751, f = 27402, action: ('moveAndDrop', 'V')
+agent PreviousPosition:S, CurrentPosition:AD --> g = 24471, h = 2751, f = 27222, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:S --> g = 24371, h = 2751, f = 27122, action: ('moveAndDrop', 'S')
+agent PreviousPosition:E, CurrentPosition:AD --> g = 24271, h = 2751, f = 27022, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:H, CurrentPosition:E --> g = 24101, h = 2751, f = 26852, action: ('moveAndDrop', 'E')
+agent PreviousPosition:Z, CurrentPosition:H --> g = 23971, h = 2751, f = 26722, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AC, CurrentPosition:Z --> g = 23651, h = 2751, f = 26402, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:H, CurrentPosition:AC --> g = 23551, h = 2751, f = 26302, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:U, CurrentPosition:H --> g = 23231, h = 2751, f = 25982, action: ('moveAndDrop', 'H')
+agent PreviousPosition:C, CurrentPosition:U --> g = 23011, h = 2751, f = 25762, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:C --> g = 22831, h = 2751, f = 25582, action: ('moveAndDrop', 'C')
+agent PreviousPosition:V, CurrentPosition:L --> g = 22701, h = 2751, f = 25452, action: ('moveAndDrop', 'L')
+agent PreviousPosition:C, CurrentPosition:V --> g = 22611, h = 2751, f = 25362, action: ('moveAndDrop', 'V')
+agent PreviousPosition:U, CurrentPosition:C --> g = 22391, h = 2751, f = 25142, action: ('moveAndDrop', 'C')
+agent PreviousPosition:L, CurrentPosition:U --> g = 22211, h = 2751, f = 24962, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:L --> g = 22141, h = 2751, f = 24892, action: ('moveAndDrop', 'L')
+agent PreviousPosition:H, CurrentPosition:O --> g = 22081, h = 2751, f = 24832, action: ('moveAndDrop', 'O')
+agent PreviousPosition:A, CurrentPosition:H --> g = 21891, h = 2751, f = 24642, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AD, CurrentPosition:A --> g = 21761, h = 2751, f = 24512, action: ('moveAndDrop', 'A')
+agent PreviousPosition:AD, CurrentPosition:AD --> g = 21605, h = 2907, f = 24512, action: ('take', <package.Package instance at 0x90f6248>)
+agent PreviousPosition:C, CurrentPosition:AD --> g = 21603, h = 2907, f = 24510, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:Q, CurrentPosition:C --> g = 21463, h = 2907, f = 24370, action: ('moveAndDrop', 'C')
+agent PreviousPosition:U, CurrentPosition:Q --> g = 21383, h = 2907, f = 24290, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AD, CurrentPosition:U --> g = 21263, h = 2907, f = 24170, action: ('moveAndDrop', 'U')
+agent PreviousPosition:U, CurrentPosition:AD --> g = 21123, h = 2907, f = 24030, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:O, CurrentPosition:U --> g = 20983, h = 2907, f = 23890, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AD, CurrentPosition:O --> g = 20840, h = 3050, f = 23890, action: ('moveAndDrop', 'O')
+agent PreviousPosition:V, CurrentPosition:AD --> g = 20749, h = 3089, f = 23838, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:L, CurrentPosition:V --> g = 20515, h = 3115, f = 23630, action: ('moveAndDrop', 'V')
+agent PreviousPosition:L, CurrentPosition:L --> g = 20380, h = 3106, f = 23486, action: ('take', <package.Package instance at 0x83776c8>)
+agent PreviousPosition:U, CurrentPosition:L --> g = 20377, h = 3106, f = 23483, action: ('moveAndDrop', 'L')
+agent PreviousPosition:I, CurrentPosition:U --> g = 20293, h = 3190, f = 23483, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:I --> g = 20233, h = 3202, f = 23435, action: ('moveAndDrop', 'I')
+agent PreviousPosition:L, CurrentPosition:E --> g = 20089, h = 3298, f = 23387, action: ('moveAndDrop', 'E')
+agent PreviousPosition:L, CurrentPosition:L --> g = 19865, h = 3298, f = 23163, action: ('take', <package.Package instance at 0x7f11cbab8638>)
+agent PreviousPosition:O, CurrentPosition:L --> g = 19863, h = 3298, f = 23161, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AD, CurrentPosition:O --> g = 19791, h = 3370, f = 23161, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:AD --> g = 19693, h = 3490, f = 23183, action: ('take', <package.Package instance at 0x84a6050>)
+agent PreviousPosition:S, CurrentPosition:AD --> g = 19691, h = 3490, f = 23181, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:L, CurrentPosition:S --> g = 19571, h = 3490, f = 23061, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AC, CurrentPosition:L --> g = 19463, h = 3478, f = 22941, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AC, CurrentPosition:AC --> g = 19331, h = 3610, f = 22941, action: ('take', <package.Package instance at 0x834f170>)
+agent PreviousPosition:AD, CurrentPosition:AC --> g = 19329, h = 3610, f = 22939, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:S, CurrentPosition:AD --> g = 19129, h = 3610, f = 22739, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:H, CurrentPosition:S --> g = 19029, h = 3610, f = 22639, action: ('moveAndDrop', 'S')
+agent PreviousPosition:Z, CurrentPosition:H --> g = 18889, h = 3610, f = 22499, action: ('moveAndDrop', 'H')
+agent PreviousPosition:U, CurrentPosition:Z --> g = 18569, h = 3610, f = 22179, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:O, CurrentPosition:U --> g = 18389, h = 3610, f = 21999, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:O --> g = 18279, h = 3610, f = 21889, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Q, CurrentPosition:L --> g = 18219, h = 3610, f = 21829, action: ('moveAndDrop', 'L')
+agent PreviousPosition:S, CurrentPosition:Q --> g = 18149, h = 3610, f = 21759, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:H, CurrentPosition:S --> g = 18109, h = 3610, f = 21719, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:H --> g = 17969, h = 3610, f = 21579, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:S --> g = 17829, h = 3610, f = 21439, action: ('moveAndDrop', 'S')
+agent PreviousPosition:C, CurrentPosition:V --> g = 17649, h = 3610, f = 21259, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Z, CurrentPosition:C --> g = 17429, h = 3610, f = 21039, action: ('moveAndDrop', 'C')
+agent PreviousPosition:H, CurrentPosition:Z --> g = 17189, h = 3610, f = 20799, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:H --> g = 16869, h = 3610, f = 20479, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:L --> g = 16659, h = 3610, f = 20269, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:V --> g = 16569, h = 3610, f = 20179, action: ('moveAndDrop', 'V')
+agent PreviousPosition:V, CurrentPosition:U --> g = 16409, h = 3610, f = 20019, action: ('moveAndDrop', 'U')
+agent PreviousPosition:U, CurrentPosition:V --> g = 16249, h = 3610, f = 19859, action: ('moveAndDrop', 'V')
+agent PreviousPosition:S, CurrentPosition:U --> g = 16089, h = 3610, f = 19699, action: ('moveAndDrop', 'U')
+agent PreviousPosition:Z, CurrentPosition:S --> g = 15949, h = 3610, f = 19559, action: ('moveAndDrop', 'S')
+agent PreviousPosition:V, CurrentPosition:Z --> g = 15749, h = 3610, f = 19359, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:I, CurrentPosition:V --> g = 15629, h = 3610, f = 19239, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Q, CurrentPosition:I --> g = 15459, h = 3610, f = 19069, action: ('moveAndDrop', 'I')
+agent PreviousPosition:A, CurrentPosition:Q --> g = 15329, h = 3610, f = 18939, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:V, CurrentPosition:A --> g = 15259, h = 3610, f = 18869, action: ('moveAndDrop', 'A')
+agent PreviousPosition:AD, CurrentPosition:V --> g = 15049, h = 3610, f = 18659, action: ('moveAndDrop', 'V')
+agent PreviousPosition:H, CurrentPosition:AD --> g = 14869, h = 3610, f = 18479, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AD, CurrentPosition:H --> g = 14649, h = 3610, f = 18259, action: ('moveAndDrop', 'H')
+agent PreviousPosition:C, CurrentPosition:AD --> g = 14429, h = 3610, f = 18039, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:E, CurrentPosition:C --> g = 14289, h = 3610, f = 17899, action: ('moveAndDrop', 'C')
+agent PreviousPosition:H, CurrentPosition:E --> g = 14199, h = 3610, f = 17809, action: ('moveAndDrop', 'E')
+agent PreviousPosition:V, CurrentPosition:H --> g = 14069, h = 3610, f = 17679, action: ('moveAndDrop', 'H')
+agent PreviousPosition:L, CurrentPosition:V --> g = 13769, h = 3610, f = 17379, action: ('moveAndDrop', 'V')
+agent PreviousPosition:AC, CurrentPosition:L --> g = 13679, h = 3610, f = 17289, action: ('moveAndDrop', 'L')
+agent PreviousPosition:H, CurrentPosition:AC --> g = 13569, h = 3610, f = 17179, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:H --> g = 13249, h = 3610, f = 16859, action: ('moveAndDrop', 'H')
+agent PreviousPosition:C, CurrentPosition:E --> g = 13119, h = 3610, f = 16729, action: ('moveAndDrop', 'E')
+agent PreviousPosition:L, CurrentPosition:C --> g = 13029, h = 3610, f = 16639, action: ('moveAndDrop', 'C')
+agent PreviousPosition:AC, CurrentPosition:L --> g = 12899, h = 3610, f = 16509, action: ('moveAndDrop', 'L')
+agent PreviousPosition:I, CurrentPosition:AC --> g = 12789, h = 3610, f = 16399, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:A, CurrentPosition:I --> g = 12599, h = 3610, f = 16209, action: ('moveAndDrop', 'I')
+agent PreviousPosition:O, CurrentPosition:A --> g = 12479, h = 3610, f = 16089, action: ('moveAndDrop', 'A')
+agent PreviousPosition:H, CurrentPosition:O --> g = 12379, h = 3610, f = 15989, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Q, CurrentPosition:H --> g = 12189, h = 3610, f = 15799, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AD, CurrentPosition:Q --> g = 12029, h = 3610, f = 15639, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:Z, CurrentPosition:AD --> g = 11949, h = 3610, f = 15559, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:C, CurrentPosition:Z --> g = 11749, h = 3610, f = 15359, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:V, CurrentPosition:C --> g = 11509, h = 3610, f = 15119, action: ('moveAndDrop', 'C')
+agent PreviousPosition:H, CurrentPosition:V --> g = 11289, h = 3610, f = 14899, action: ('moveAndDrop', 'V')
+agent PreviousPosition:S, CurrentPosition:H --> g = 10989, h = 3610, f = 14599, action: ('moveAndDrop', 'H')
+agent PreviousPosition:AD, CurrentPosition:S --> g = 10849, h = 3610, f = 14459, action: ('moveAndDrop', 'S')
+agent PreviousPosition:I, CurrentPosition:AD --> g = 10749, h = 3610, f = 14359, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:A, CurrentPosition:I --> g = 10599, h = 3610, f = 14209, action: ('moveAndDrop', 'I')
+agent PreviousPosition:H, CurrentPosition:A --> g = 10479, h = 3610, f = 14089, action: ('moveAndDrop', 'A')
+agent PreviousPosition:C, CurrentPosition:H --> g = 10349, h = 3610, f = 13959, action: ('moveAndDrop', 'H')
+agent PreviousPosition:O, CurrentPosition:C --> g = 10209, h = 3610, f = 13819, action: ('moveAndDrop', 'C')
+agent PreviousPosition:AC, CurrentPosition:O --> g = 10099, h = 3610, f = 13709, action: ('moveAndDrop', 'O')
+agent PreviousPosition:V, CurrentPosition:AC --> g = 9929, h = 3610, f = 13539, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:V --> g = 9809, h = 3610, f = 13419, action: ('moveAndDrop', 'V')
+agent PreviousPosition:I, CurrentPosition:Z --> g = 9689, h = 3610, f = 13299, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:I --> g = 9499, h = 3610, f = 13109, action: ('moveAndDrop', 'I')
+agent PreviousPosition:O, CurrentPosition:L --> g = 9419, h = 3610, f = 13029, action: ('moveAndDrop', 'L')
+agent PreviousPosition:S, CurrentPosition:O --> g = 9347, h = 3682, f = 13029, action: ('moveAndDrop', 'O')
+agent PreviousPosition:I, CurrentPosition:S --> g = 9263, h = 3718, f = 12981, action: ('moveAndDrop', 'S')
+agent PreviousPosition:Q, CurrentPosition:I --> g = 9107, h = 3706, f = 12813, action: ('moveAndDrop', 'I')
+agent PreviousPosition:O, CurrentPosition:Q --> g = 8951, h = 3694, f = 12645, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AD, CurrentPosition:O --> g = 8881, h = 3742, f = 12623, action: ('moveAndDrop', 'O')
+agent PreviousPosition:AD, CurrentPosition:AD --> g = 8783, h = 3814, f = 12597, action: ('take', <package.Package instance at 0x7f11cbd02a70>)
+agent PreviousPosition:H, CurrentPosition:AD --> g = 8781, h = 3814, f = 12595, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:S, CurrentPosition:H --> g = 8517, h = 3910, f = 12427, action: ('moveAndDrop', 'H')
+agent PreviousPosition:A, CurrentPosition:S --> g = 8321, h = 3934, f = 12255, action: ('moveAndDrop', 'S')
+agent PreviousPosition:E, CurrentPosition:A --> g = 8251, h = 3958, f = 12209, action: ('moveAndDrop', 'A')
+agent PreviousPosition:E, CurrentPosition:E --> g = 8139, h = 4006, f = 12145, action: ('take', <package.Package instance at 0x7f11cc632128>)
+agent PreviousPosition:A, CurrentPosition:E --> g = 8137, h = 4006, f = 12143, action: ('moveAndDrop', 'E')
+agent PreviousPosition:S, CurrentPosition:A --> g = 8041, h = 4006, f = 12047, action: ('moveAndDrop', 'A')
+agent PreviousPosition:A, CurrentPosition:S --> g = 7981, h = 4018, f = 11999, action: ('moveAndDrop', 'S')
+agent PreviousPosition:S, CurrentPosition:A --> g = 7921, h = 4006, f = 11927, action: ('moveAndDrop', 'A')
+agent PreviousPosition:C, CurrentPosition:S --> g = 7851, h = 4078, f = 11929, action: ('moveAndDrop', 'S')
+agent PreviousPosition:C, CurrentPosition:C --> g = 7767, h = 4078, f = 11845, action: ('take', <package.Package instance at 0x7f11cc2755a8>)
+agent PreviousPosition:Q, CurrentPosition:C --> g = 7765, h = 4078, f = 11843, action: ('moveAndDrop', 'C')
+agent PreviousPosition:O, CurrentPosition:Q --> g = 7669, h = 4102, f = 11771, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:U, CurrentPosition:O --> g = 7609, h = 4138, f = 11747, action: ('moveAndDrop', 'O')
+agent PreviousPosition:O, CurrentPosition:U --> g = 7477, h = 4222, f = 11699, action: ('moveAndDrop', 'U')
+agent PreviousPosition:O, CurrentPosition:O --> g = 7312, h = 4281, f = 11593, action: ('take', <package.Package instance at 0x7f11cc45f248>)
+agent PreviousPosition:Q, CurrentPosition:O --> g = 7310, h = 4281, f = 11591, action: ('moveAndDrop', 'O')
+agent PreviousPosition:Q, CurrentPosition:Q --> g = 7245, h = 4294, f = 11539, action: ('take', <package.Package instance at 0x7f11cbe79098>)
+agent PreviousPosition:H, CurrentPosition:Q --> g = 7242, h = 4294, f = 11536, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:U, CurrentPosition:H --> g = 7082, h = 4294, f = 11376, action: ('moveAndDrop', 'H')
+agent PreviousPosition:A, CurrentPosition:U --> g = 6862, h = 4294, f = 11156, action: ('moveAndDrop', 'U')
+agent PreviousPosition:AD, CurrentPosition:A --> g = 6692, h = 4294, f = 10986, action: ('moveAndDrop', 'A')
+agent PreviousPosition:I, CurrentPosition:AD --> g = 6562, h = 4294, f = 10856, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:AC, CurrentPosition:I --> g = 6412, h = 4294, f = 10706, action: ('moveAndDrop', 'I')
+agent PreviousPosition:Z, CurrentPosition:AC --> g = 6222, h = 4294, f = 10516, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Q, CurrentPosition:Z --> g = 6122, h = 4294, f = 10416, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:AC, CurrentPosition:Q --> g = 5942, h = 4294, f = 10236, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:L, CurrentPosition:AC --> g = 5762, h = 4294, f = 10056, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:Z, CurrentPosition:L --> g = 5630, h = 4426, f = 10056, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Q, CurrentPosition:Z --> g = 5498, h = 4414, f = 9912, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:L, CurrentPosition:Q --> g = 5282, h = 4510, f = 9792, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:AD, CurrentPosition:L --> g = 5184, h = 4510, f = 9694, action: ('moveAndDrop', 'L')
+agent PreviousPosition:Z, CurrentPosition:AD --> g = 5058, h = 4630, f = 9688, action: ('moveAndDrop', 'AD')
+agent PreviousPosition:V, CurrentPosition:Z --> g = 4778, h = 4630, f = 9408, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:V, CurrentPosition:V --> g = 4610, h = 4630, f = 9240, action: ('take', <package.Package instance at 0x7f11cc1faa70>)
+agent PreviousPosition:V, CurrentPosition:V --> g = 4608, h = 4630, f = 9238, action: ('take', <package.Package instance at 0x7f11cc0103f8>)
+agent PreviousPosition:AC, CurrentPosition:V --> g = 4606, h = 4630, f = 9236, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Z, CurrentPosition:AC --> g = 4486, h = 4630, f = 9116, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:E, CurrentPosition:Z --> g = 4386, h = 4630, f = 9016, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:S, CurrentPosition:E --> g = 4116, h = 4630, f = 8746, action: ('moveAndDrop', 'E')
+agent PreviousPosition:C, CurrentPosition:S --> g = 4026, h = 4630, f = 8656, action: ('moveAndDrop', 'S')
+agent PreviousPosition:E, CurrentPosition:C --> g = 3966, h = 4630, f = 8596, action: ('moveAndDrop', 'C')
+agent PreviousPosition:Q, CurrentPosition:E --> g = 3876, h = 4630, f = 8506, action: ('moveAndDrop', 'E')
+agent PreviousPosition:AC, CurrentPosition:Q --> g = 3766, h = 4630, f = 8396, action: ('moveAndDrop', 'Q')
+agent PreviousPosition:V, CurrentPosition:AC --> g = 3586, h = 4630, f = 8216, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:U, CurrentPosition:V --> g = 3466, h = 4630, f = 8096, action: ('moveAndDrop', 'V')
+agent PreviousPosition:A, CurrentPosition:U --> g = 3306, h = 4630, f = 7936, action: ('moveAndDrop', 'U')
+agent PreviousPosition:E, CurrentPosition:A --> g = 3136, h = 4630, f = 7766, action: ('moveAndDrop', 'A')
+agent PreviousPosition:AC, CurrentPosition:E --> g = 3056, h = 4630, f = 7686, action: ('moveAndDrop', 'E')
+agent PreviousPosition:L, CurrentPosition:AC --> g = 2786, h = 4630, f = 7416, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:V, CurrentPosition:L --> g = 2676, h = 4630, f = 7306, action: ('moveAndDrop', 'L')
+agent PreviousPosition:U, CurrentPosition:V --> g = 2586, h = 4630, f = 7216, action: ('moveAndDrop', 'V')
+agent PreviousPosition:A, CurrentPosition:U --> g = 2426, h = 4630, f = 7056, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:A --> g = 2256, h = 4630, f = 6886, action: ('moveAndDrop', 'A')
+agent PreviousPosition:V, CurrentPosition:L --> g = 2136, h = 4630, f = 6766, action: ('moveAndDrop', 'L')
+agent PreviousPosition:AC, CurrentPosition:V --> g = 2046, h = 4630, f = 6676, action: ('moveAndDrop', 'V')
+agent PreviousPosition:Z, CurrentPosition:AC --> g = 1926, h = 4630, f = 6556, action: ('moveAndDrop', 'AC')
+agent PreviousPosition:L, CurrentPosition:Z --> g = 1826, h = 4630, f = 6456, action: ('moveAndDrop', 'Z')
+agent PreviousPosition:C, CurrentPosition:L --> g = 1716, h = 4630, f = 6346, action: ('moveAndDrop', 'L')
+agent PreviousPosition:H, CurrentPosition:C --> g = 1586, h = 4630, f = 6216, action: ('moveAndDrop', 'C')
+agent PreviousPosition:I, CurrentPosition:H --> g = 1446, h = 4630, f = 6076, action: ('moveAndDrop', 'H')
+agent PreviousPosition:V, CurrentPosition:I --> g = 1276, h = 4630, f = 5906, action: ('moveAndDrop', 'I')
+agent PreviousPosition:L, CurrentPosition:V --> g = 1106, h = 4630, f = 5736, action: ('moveAndDrop', 'V')
+agent PreviousPosition:E, CurrentPosition:L --> g = 1016, h = 4630, f = 5646, action: ('moveAndDrop', 'L')
+agent PreviousPosition:V, CurrentPosition:E --> g = 856, h = 4630, f = 5486, action: ('moveAndDrop', 'E')
+agent PreviousPosition:U, CurrentPosition:V --> g = 606, h = 4630, f = 5236, action: ('moveAndDrop', 'V')
+agent PreviousPosition:I, CurrentPosition:U --> g = 446, h = 4630, f = 5076, action: ('moveAndDrop', 'U')
+agent PreviousPosition:L, CurrentPosition:I --> g = 386, h = 4690, f = 5076, action: ('moveAndDrop', 'I')
+agent PreviousPosition:S, CurrentPosition:L --> g = 290, h = 4714, f = 5004, action: ('moveAndDrop', 'L')
+agent PreviousPosition:S, CurrentPosition:S --> g = 182, h = 4798, f = 4980, action: ('take', <package.Package instance at 0x7f11cc553bd8>)
+agent PreviousPosition:L, CurrentPosition:S --> g = 180, h = 4798, f = 4978, action: ('moveAndDrop', 'S')
+agent PreviousPosition:AD, CurrentPosition:L --> g = 90, h = 4798, f = 4888, action: ('moveAndDrop', 'L')
+1 : moveAndDrop L
+2 : moveAndDrop S
+3 : take 1024
+4 : moveAndDrop L
+5 : moveAndDrop I
+6 : moveAndDrop U
+7 : moveAndDrop V
+8 : moveAndDrop E
+9 : moveAndDrop L
+10 : moveAndDrop V
+11 : moveAndDrop I
+12 : moveAndDrop H
+13 : moveAndDrop C
+14 : moveAndDrop L
+15 : moveAndDrop Z
+16 : moveAndDrop AC
+17 : moveAndDrop V
+18 : moveAndDrop L
+19 : moveAndDrop A
+20 : moveAndDrop U
+21 : moveAndDrop V
+22 : moveAndDrop L
+23 : moveAndDrop AC
+24 : moveAndDrop E
+25 : moveAndDrop A
+26 : moveAndDrop U
+27 : moveAndDrop V
+28 : moveAndDrop AC
+29 : moveAndDrop Q
+30 : moveAndDrop E
+31 : moveAndDrop C
+32 : moveAndDrop S
+33 : moveAndDrop E
+34 : moveAndDrop Z
+35 : moveAndDrop AC
+36 : moveAndDrop V
+37 : take 1010
+38 : take 1011
+39 : moveAndDrop Z
+40 : moveAndDrop AD
+41 : moveAndDrop L
+42 : moveAndDrop Q
+43 : moveAndDrop Z
+44 : moveAndDrop L
+45 : moveAndDrop AC
+46 : moveAndDrop Q
+47 : moveAndDrop Z
+48 : moveAndDrop AC
+49 : moveAndDrop I
+50 : moveAndDrop AD
+51 : moveAndDrop A
+52 : moveAndDrop U
+53 : moveAndDrop H
+54 : moveAndDrop Q
+55 : take 1007
+56 : moveAndDrop O
+57 : take 1027
+58 : moveAndDrop U
+59 : moveAndDrop O
+60 : moveAndDrop Q
+61 : moveAndDrop C
+62 : take 1004
+63 : moveAndDrop S
+64 : moveAndDrop A
+65 : moveAndDrop S
+66 : moveAndDrop A
+67 : moveAndDrop E
+68 : take 1020
+69 : moveAndDrop A
+70 : moveAndDrop S
+71 : moveAndDrop H
+72 : moveAndDrop AD
+73 : take 1016
+74 : moveAndDrop O
+75 : moveAndDrop Q
+76 : moveAndDrop I
+77 : moveAndDrop S
+78 : moveAndDrop O
+79 : moveAndDrop L
+80 : moveAndDrop I
+81 : moveAndDrop Z
+82 : moveAndDrop V
+83 : moveAndDrop AC
+84 : moveAndDrop O
+85 : moveAndDrop C
+86 : moveAndDrop H
+87 : moveAndDrop A
+88 : moveAndDrop I
+89 : moveAndDrop AD
+90 : moveAndDrop S
+91 : moveAndDrop H
+92 : moveAndDrop V
+93 : moveAndDrop C
+94 : moveAndDrop Z
+95 : moveAndDrop AD
+96 : moveAndDrop Q
+97 : moveAndDrop H
+98 : moveAndDrop O
+99 : moveAndDrop A
+100 : moveAndDrop I
+101 : moveAndDrop AC
+102 : moveAndDrop L
+103 : moveAndDrop C
+104 : moveAndDrop E
+105 : moveAndDrop H
+106 : moveAndDrop AC
+107 : moveAndDrop L
+108 : moveAndDrop V
+109 : moveAndDrop H
+110 : moveAndDrop E
+111 : moveAndDrop C
+112 : moveAndDrop AD
+113 : moveAndDrop H
+114 : moveAndDrop AD
+115 : moveAndDrop V
+116 : moveAndDrop A
+117 : moveAndDrop Q
+118 : moveAndDrop I
+119 : moveAndDrop V
+120 : moveAndDrop Z
+121 : moveAndDrop S
+122 : moveAndDrop U
+123 : moveAndDrop V
+124 : moveAndDrop U
+125 : moveAndDrop V
+126 : moveAndDrop L
+127 : moveAndDrop H
+128 : moveAndDrop Z
+129 : moveAndDrop C
+130 : moveAndDrop V
+131 : moveAndDrop S
+132 : moveAndDrop H
+133 : moveAndDrop S
+134 : moveAndDrop Q
+135 : moveAndDrop L
+136 : moveAndDrop O
+137 : moveAndDrop U
+138 : moveAndDrop Z
+139 : moveAndDrop H
+140 : moveAndDrop S
+141 : moveAndDrop AD
+142 : moveAndDrop AC
+143 : take 1015
+144 : moveAndDrop L
+145 : moveAndDrop S
+146 : moveAndDrop AD
+147 : take 1017
+148 : moveAndDrop O
+149 : moveAndDrop L
+150 : take 1026
+151 : moveAndDrop E
+152 : moveAndDrop I
+153 : moveAndDrop U
+154 : moveAndDrop L
+155 : take 1006
+156 : moveAndDrop V
+157 : moveAndDrop AD
+158 : moveAndDrop O
+159 : moveAndDrop U
+160 : moveAndDrop AD
+161 : moveAndDrop U
+162 : moveAndDrop Q
+163 : moveAndDrop C
+164 : moveAndDrop AD
+165 : take 1018
+166 : moveAndDrop A
+167 : moveAndDrop H
+168 : moveAndDrop O
+169 : moveAndDrop L
+170 : moveAndDrop U
+171 : moveAndDrop C
+172 : moveAndDrop V
+173 : moveAndDrop L
+174 : moveAndDrop C
+175 : moveAndDrop U
+176 : moveAndDrop H
+177 : moveAndDrop AC
+178 : moveAndDrop Z
+179 : moveAndDrop H
+180 : moveAndDrop E
+181 : moveAndDrop AD
+182 : moveAndDrop S
+183 : moveAndDrop AD
+184 : moveAndDrop V
+185 : moveAndDrop AC
+186 : moveAndDrop E
+187 : moveAndDrop V
+188 : moveAndDrop Z
+189 : moveAndDrop U
+190 : moveAndDrop AC
+191 : moveAndDrop V
+192 : moveAndDrop Z
+193 : moveAndDrop Q
+194 : moveAndDrop V
+195 : moveAndDrop AD
+196 : moveAndDrop I
+197 : moveAndDrop Z
+198 : moveAndDrop A
+199 : moveAndDrop O
+200 : moveAndDrop H
+201 : moveAndDrop I
+202 : moveAndDrop E
+203 : take 1021
+204 : moveAndDrop O
+205 : moveAndDrop E
+206 : moveAndDrop O
+207 : moveAndDrop A
+208 : take 1000
+209 : take 1009
+210 : moveAndDrop E
+211 : moveAndDrop O
+212 : moveAndDrop U
+213 : moveAndDrop I
+214 : moveAndDrop S
+215 : moveAndDrop I
+216 : moveAndDrop AD
+217 : moveAndDrop O
+218 : moveAndDrop L
+219 : moveAndDrop U
+220 : moveAndDrop Q
+221 : moveAndDrop A
+222 : moveAndDrop AD
+223 : moveAndDrop A
+224 : moveAndDrop I
+225 : moveAndDrop C
+226 : moveAndDrop Q
+227 : moveAndDrop H
+228 : moveAndDrop U
+229 : moveAndDrop V
+230 : moveAndDrop Q
+231 : moveAndDrop V
+232 : moveAndDrop I
+233 : moveAndDrop V
+234 : moveAndDrop O
+235 : moveAndDrop V
+236 : moveAndDrop A
+237 : moveAndDrop Z
+238 : moveAndDrop L
+239 : moveAndDrop A
+240 : moveAndDrop C
+241 : moveAndDrop O
+242 : moveAndDrop E
+243 : moveAndDrop C
+244 : moveAndDrop AD
+245 : moveAndDrop E
+246 : moveAndDrop V
+247 : moveAndDrop A
+248 : moveAndDrop L
+249 : moveAndDrop V
+250 : moveAndDrop C
+251 : moveAndDrop E
+252 : moveAndDrop U
+253 : moveAndDrop AC
+254 : moveAndDrop Q
+255 : moveAndDrop AC
+256 : moveAndDrop V
+257 : moveAndDrop S
+258 : moveAndDrop A
+259 : moveAndDrop I
+260 : moveAndDrop AC
+261 : moveAndDrop L
+262 : moveAndDrop V
+263 : moveAndDrop A
+264 : moveAndDrop O
+265 : moveAndDrop V
+266 : moveAndDrop Q
+267 : moveAndDrop H
+268 : moveAndDrop E
+269 : moveAndDrop U
+270 : moveAndDrop Z
+271 : take 1025
+272 : moveAndDrop C
+273 : moveAndDrop S
+274 : moveAndDrop V
+275 : moveAndDrop S
+276 : moveAndDrop AD
+277 : moveAndDrop S
+278 : moveAndDrop E
+279 : moveAndDrop A
+280 : moveAndDrop S
+281 : moveAndDrop O
+282 : moveAndDrop A
+283 : moveAndDrop AC
+284 : moveAndDrop A
+285 : moveAndDrop AD
+286 : moveAndDrop C
+287 : moveAndDrop O
+288 : moveAndDrop L
+289 : moveAndDrop E
+290 : moveAndDrop U
+291 : moveAndDrop AD
+292 : moveAndDrop V
+293 : moveAndDrop L
+294 : moveAndDrop AD
+295 : moveAndDrop Q
+296 : moveAndDrop A
+297 : moveAndDrop L
+298 : moveAndDrop V
+299 : moveAndDrop L
+300 : moveAndDrop C
+301 : moveAndDrop Z
+302 : moveAndDrop L
+303 : moveAndDrop O
+304 : moveAndDrop Q
+305 : moveAndDrop A
+306 : moveAndDrop Z
+307 : take 1012
+308 : moveAndDrop I
+309 : moveAndDrop Q
+310 : moveAndDrop O
+311 : moveAndDrop L
+312 : moveAndDrop O
+313 : moveAndDrop I
+314 : moveAndDrop L
+315 : moveAndDrop AD
+316 : moveAndDrop Q
+317 : moveAndDrop AD
+318 : moveAndDrop A
+319 : moveAndDrop O
+320 : moveAndDrop AD
+321 : moveAndDrop U
+322 : moveAndDrop AC
+323 : moveAndDrop O
+324 : moveAndDrop V
+325 : moveAndDrop S
+326 : moveAndDrop V
+327 : moveAndDrop O
+328 : moveAndDrop Z
+329 : moveAndDrop A
+330 : moveAndDrop H
+331 : moveAndDrop I
+332 : moveAndDrop Q
+333 : moveAndDrop V
+334 : moveAndDrop Z
+335 : moveAndDrop Q
+336 : moveAndDrop L
+337 : moveAndDrop A
+338 : take 1001
+339 : take 1008
+340 : moveAndDrop E
+341 : moveAndDrop S
+342 : moveAndDrop I
+343 : moveAndDrop U
+344 : moveAndDrop E
+345 : moveAndDrop AD
+346 : moveAndDrop AC
+347 : moveAndDrop V
+348 : moveAndDrop AD
+349 : moveAndDrop E
+350 : moveAndDrop AD
+351 : moveAndDrop U
+352 : moveAndDrop H
+353 : moveAndDrop C
+354 : moveAndDrop V
+355 : moveAndDrop U
+356 : moveAndDrop O
+357 : moveAndDrop AD
+358 : moveAndDrop H
+359 : moveAndDrop V
+360 : moveAndDrop H
+361 : moveAndDrop C
+362 : moveAndDrop H
+363 : moveAndDrop U
+364 : moveAndDrop A
+365 : moveAndDrop V
+366 : moveAndDrop L
+367 : moveAndDrop AD
+368 : moveAndDrop E
+369 : moveAndDrop AD
+370 : moveAndDrop I
+371 : moveAndDrop AC
+372 : moveAndDrop H
+373 : moveAndDrop I
+374 : moveAndDrop Z
+375 : moveAndDrop I
+376 : moveAndDrop L
+377 : moveAndDrop O
+378 : moveAndDrop Q
+379 : moveAndDrop H
+380 : moveAndDrop E
+381 : moveAndDrop L
+382 : moveAndDrop I
+383 : moveAndDrop U
+384 : moveAndDrop H
+385 : moveAndDrop A
+386 : moveAndDrop I
+387 : moveAndDrop U
+388 : moveAndDrop AC
+389 : moveAndDrop A
+390 : moveAndDrop C
+391 : moveAndDrop L
+392 : moveAndDrop C
+393 : moveAndDrop S
+394 : moveAndDrop O
+395 : moveAndDrop S
+396 : moveAndDrop O
+397 : moveAndDrop A
+398 : moveAndDrop U
+399 : moveAndDrop AD
+400 : moveAndDrop L
+401 : moveAndDrop Z
+402 : moveAndDrop AC
+403 : moveAndDrop AD
+404 : moveAndDrop V
+405 : moveAndDrop O
+406 : moveAndDrop H
+407 : moveAndDrop A
+408 : moveAndDrop V
+409 : moveAndDrop L
+410 : moveAndDrop O
+411 : moveAndDrop Z
+412 : moveAndDrop L
+413 : moveAndDrop AC
+414 : moveAndDrop U
+415 : moveAndDrop Z
+416 : moveAndDrop H
+417 : moveAndDrop V
+418 : moveAndDrop O
+419 : moveAndDrop S
+420 : moveAndDrop E
+421 : moveAndDrop AC
+422 : moveAndDrop U
+423 : moveAndDrop E
+424 : take 1019
+425 : moveAndDrop Z
+426 : moveAndDrop AC
+427 : moveAndDrop I
+428 : moveAndDrop U
+429 : moveAndDrop A
+430 : moveAndDrop V
+431 : moveAndDrop AD
+432 : moveAndDrop E
+433 : take 1003
+434 : moveAndDrop H
+435 : moveAndDrop AC
+436 : moveAndDrop I
+437 : moveAndDrop AC
+438 : moveAndDrop S
+439 : moveAndDrop AC
+440 : take 1013
+441 : take 1014
+442 : moveAndDrop Q
+443 : moveAndDrop C
+444 : moveAndDrop O
+445 : moveAndDrop I
+446 : moveAndDrop H
+447 : moveAndDrop C
+448 : moveAndDrop AC
+449 : moveAndDrop L
+450 : moveAndDrop S
+451 : moveAndDrop AD
+452 : moveAndDrop S
+453 : moveAndDrop Z
+454 : moveAndDrop I
+455 : moveAndDrop AC
+456 : moveAndDrop H
+457 : moveAndDrop AD
+458 : moveAndDrop AC
+459 : moveAndDrop Q
+460 : moveAndDrop AC
+461 : moveAndDrop V
+462 : moveAndDrop L
+463 : moveAndDrop S
+464 : moveAndDrop C
+465 : moveAndDrop E
+466 : moveAndDrop S
+467 : moveAndDrop C
+468 : moveAndDrop O
+469 : moveAndDrop AD
+470 : moveAndDrop S
+471 : moveAndDrop H
+472 : moveAndDrop O
+473 : moveAndDrop S
+474 : moveAndDrop C
+475 : moveAndDrop Q
+476 : moveAndDrop I
+477 : moveAndDrop V
+478 : moveAndDrop U
+479 : moveAndDrop H
+480 : moveAndDrop A
+481 : moveAndDrop Q
+482 : moveAndDrop C
+483 : moveAndDrop U
+484 : moveAndDrop H
+485 : moveAndDrop I
+486 : moveAndDrop O
+487 : moveAndDrop H
+488 : moveAndDrop Z
+489 : moveAndDrop AD
+490 : moveAndDrop AC
+491 : moveAndDrop AD
+492 : moveAndDrop A
+493 : moveAndDrop V
+494 : moveAndDrop AD
+495 : moveAndDrop U
+496 : moveAndDrop I
+497 : moveAndDrop H
+498 : moveAndDrop Z
+499 : moveAndDrop E
+500 : moveAndDrop A
+501 : moveAndDrop AD
+502 : moveAndDrop E
+503 : moveAndDrop Q
+504 : moveAndDrop S
+505 : moveAndDrop H
+506 : moveAndDrop E
+507 : moveAndDrop A
+508 : moveAndDrop E
+509 : moveAndDrop AC
+510 : moveAndDrop H
+511 : moveAndDrop C
+512 : moveAndDrop H
+513 : moveAndDrop AC
+514 : moveAndDrop O
+515 : moveAndDrop E
+516 : moveAndDrop S
+517 : moveAndDrop E
+518 : moveAndDrop S
+519 : moveAndDrop U
+520 : moveAndDrop Z
+521 : moveAndDrop A
+522 : moveAndDrop AD
+523 : moveAndDrop AC
+524 : moveAndDrop I
+525 : moveAndDrop H
+526 : moveAndDrop A
+527 : moveAndDrop H
+528 : moveAndDrop S
+529 : moveAndDrop C
+530 : moveAndDrop Q
+531 : moveAndDrop U
+532 : moveAndDrop S
+533 : moveAndDrop E
+534 : moveAndDrop H
+535 : moveAndDrop A
+536 : moveAndDrop V
+537 : moveAndDrop L
+538 : moveAndDrop E
+539 : moveAndDrop O
+540 : moveAndDrop C
+541 : moveAndDrop U
+542 : moveAndDrop E
+543 : moveAndDrop L
+544 : moveAndDrop U
+545 : moveAndDrop Q
+546 : moveAndDrop L
+547 : moveAndDrop A
+548 : moveAndDrop AD
+549 : moveAndDrop I
+550 : moveAndDrop U
+551 : moveAndDrop L
+552 : moveAndDrop E
+553 : moveAndDrop Z
+554 : moveAndDrop H
+555 : moveAndDrop Z
+556 : moveAndDrop Q
+557 : moveAndDrop U
+558 : take 1005
+559 : moveAndDrop I
+560 : moveAndDrop V
+561 : moveAndDrop AC
+562 : moveAndDrop Z
+563 : moveAndDrop S
+564 : moveAndDrop AD
+565 : moveAndDrop I
+566 : moveAndDrop U
+567 : moveAndDrop S
+568 : moveAndDrop A
+569 : moveAndDrop H
+570 : moveAndDrop AD
+571 : moveAndDrop Z
+572 : moveAndDrop AD
+573 : moveAndDrop Z
+574 : moveAndDrop O
+575 : moveAndDrop AD
+576 : moveAndDrop O
+577 : moveAndDrop S
+578 : moveAndDrop O
+579 : moveAndDrop C
+580 : moveAndDrop U
+581 : moveAndDrop Q
+582 : moveAndDrop AC
+583 : moveAndDrop A
+584 : moveAndDrop H
+585 : take 1023
+586 : moveAndDrop L
+587 : moveAndDrop S
+588 : moveAndDrop C
+589 : moveAndDrop A
+590 : moveAndDrop I
+591 : moveAndDrop U
+592 : moveAndDrop O
+593 : moveAndDrop L
+594 : moveAndDrop Z
+595 : moveAndDrop U
+596 : moveAndDrop O
+597 : moveAndDrop I
+598 : moveAndDrop Q
+599 : moveAndDrop A
+600 : moveAndDrop AC
+601 : moveAndDrop I
+602 : moveAndDrop U
+603 : moveAndDrop H
+604 : moveAndDrop Q
+605 : moveAndDrop Z
+606 : moveAndDrop C
+607 : moveAndDrop E
+608 : moveAndDrop V
+609 : moveAndDrop A
+610 : moveAndDrop U
+611 : moveAndDrop O
+612 : moveAndDrop E
+613 : moveAndDrop H
+614 : take 1022
+615 : take 1002
+616 : moveAndDrop E
+617 : moveAndDrop S
+618 : moveAndDrop C
+WASTED ENERGY: 85730

@@ -1,0 +1,2055 @@
+1 : take 4570
+----- updateModel -----
+| action: take
+| add a store into BDD: ------ store : A ------
+| package list:
+Package 4566 : 1 kg to F
+Package 4567 : 1 kg to E
+Package 4568 : 5 kg to B
+Package 4569 : 2 kg to B
+Package 4571 : 4 kg to E
+Package 4572 : 5 kg to F
+Package 4573 : 2 kg to B
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+2 : take 4567
+----- updateModel -----
+| action: take
+paquet 4566 supprimé de packageList
+paquet 4569 supprimé de packageList
+paquet 4571 supprimé de packageList
+paquet 4572 supprimé de packageList
+paquet 4573 supprimé de packageList
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4566 : 1 kg to F
+Package 4568 : 5 kg to B
+Package 4569 : 2 kg to B
+Package 4571 : 4 kg to E
+Package 4572 : 5 kg to F
+Package 4573 : 2 kg to B
+| totalLoadWeight: 19
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+3 : take 4566
+----- updateModel -----
+| action: take
+paquet 4569 supprimé de packageList
+paquet 4571 supprimé de packageList
+paquet 4572 supprimé de packageList
+paquet 4573 supprimé de packageList
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4568 : 5 kg to B
+Package 4569 : 2 kg to B
+Package 4571 : 4 kg to E
+Package 4572 : 5 kg to F
+Package 4573 : 2 kg to B
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+------------- END case 3 ---------------
+4 : move E
+----- updateModel -----
+| action: move
+5 : drop 4570
+----- updateModel -----
+| action: drop
+6 : take 6704
+----- updateModel -----
+| action: take
+| add a store into BDD: ------ store : E ------
+| package list:
+Package 6700 : 1 kg to B
+Package 6701 : 2 kg to B
+Package 6702 : 1 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6706 : 1 kg to F
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6710 : 1 kg to B
+Package 6711 : 1 kg to A
+Package 6712 : 1 kg to F
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 19
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+7 : take 6706
+----- updateModel -----
+| action: take
+paquet 6700 supprimé de packageList
+paquet 6701 supprimé de packageList
+paquet 6702 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6708 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6710 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6712 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6700 : 1 kg to B
+Package 6701 : 2 kg to B
+Package 6702 : 1 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6710 : 1 kg to B
+Package 6711 : 1 kg to A
+Package 6712 : 1 kg to F
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+8 : take 6712
+----- updateModel -----
+| action: take
+paquet 6700 supprimé de packageList
+paquet 6701 supprimé de packageList
+paquet 6702 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6708 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6710 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6700 : 1 kg to B
+Package 6701 : 2 kg to B
+Package 6702 : 1 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6710 : 1 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 17
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+------------- END case 3 ---------------
+9 : move F
+----- updateModel -----
+| action: move
+10 : drop 4566
+----- updateModel -----
+| action: drop
+11 : take 1189
+----- updateModel -----
+| action: take
+| add a store into BDD: ------ store : F ------
+| package list:
+Package 1165 : 1 kg to A
+Package 1166 : 2 kg to B
+Package 1167 : 1 kg to E
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1168 : 1 kg to E
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1171 : 1 kg to E
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1187 : 1 kg to A
+Package 1188 : 2 kg to B
+| totalLoadWeight: 35
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+12 : take 1167
+----- updateModel -----
+| action: take
+paquet 1165 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1168 supprimé de packageList
+paquet 1169 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1171 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1187 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1165 : 1 kg to A
+Package 1166 : 2 kg to B
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1168 : 1 kg to E
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1171 : 1 kg to E
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1187 : 1 kg to A
+Package 1188 : 2 kg to B
+| totalLoadWeight: 34
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+13 : take 1168
+----- updateModel -----
+| action: take
+paquet 1165 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1171 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1187 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1165 : 1 kg to A
+Package 1166 : 2 kg to B
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1171 : 1 kg to E
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1187 : 1 kg to A
+Package 1188 : 2 kg to B
+| totalLoadWeight: 33
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+14 : take 1171
+----- updateModel -----
+| action: take
+paquet 1165 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1169 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1187 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1165 : 1 kg to A
+Package 1166 : 2 kg to B
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1187 : 1 kg to A
+Package 1188 : 2 kg to B
+| totalLoadWeight: 32
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+------------- END case 3 ---------------
+15 : move E
+----- updateModel -----
+| action: move
+16 : drop 1189
+----- updateModel -----
+| action: drop
+17 : take 6710
+----- updateModel -----
+| action: take
+paquet 6700 supprimé de packageList
+paquet 6701 supprimé de packageList
+paquet 6702 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6708 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6700 : 1 kg to B
+Package 6701 : 2 kg to B
+Package 6702 : 1 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 16
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+18 : take 6700
+----- updateModel -----
+| action: take
+paquet 6702 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6708 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6702 : 1 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 15
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+19 : take 6702
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6708 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6708 : 1 kg to B
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 14
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+20 : take 6708
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+paquet 6715 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+Package 6715 : 1 kg to A
+| totalLoadWeight: 13
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+------------- END case 3 ---------------
+21 : move B
+----- updateModel -----
+| action: move
+22 : drop 6710
+----- updateModel -----
+| action: drop
+23 : take 2116
+----- updateModel -----
+| action: take
+| add a store into BDD: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2103 : 2 kg to A
+Package 2104 : 2 kg to A
+Package 2105 : 2 kg to F
+Package 2106 : 2 kg to A
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2113 : 2 kg to A
+Package 2114 : 2 kg to F
+Package 2115 : 2 kg to A
+| totalLoadWeight: 28
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+24 : take 2103
+----- updateModel -----
+| action: take
+paquet 2102 supprimé de packageList
+paquet 2105 supprimé de packageList
+paquet 2106 supprimé de packageList
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2113 supprimé de packageList
+paquet 2114 supprimé de packageList
+paquet 2115 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2104 : 2 kg to A
+Package 2105 : 2 kg to F
+Package 2106 : 2 kg to A
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2113 : 2 kg to A
+Package 2114 : 2 kg to F
+Package 2115 : 2 kg to A
+| totalLoadWeight: 26
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+------------- END case 3 ---------------
+25 : move A
+----- updateModel -----
+| action: move
+26 : drop 2116
+----- updateModel -----
+| action: drop
+27 : take 4573
+----- updateModel -----
+| action: take
+paquet 4568 supprimé de packageList
+paquet 4569 supprimé de packageList
+paquet 4571 supprimé de packageList
+paquet 4572 supprimé de packageList
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4568 : 5 kg to B
+Package 4569 : 2 kg to B
+Package 4571 : 4 kg to E
+Package 4572 : 5 kg to F
+| totalLoadWeight: 16
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+28 : take 4569
+----- updateModel -----
+| action: take
+paquet 4568 supprimé de packageList
+paquet 4572 supprimé de packageList
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4568 : 5 kg to B
+Package 4571 : 4 kg to E
+Package 4572 : 5 kg to F
+| totalLoadWeight: 14
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+29 : move B
+----- updateModel -----
+| action: move
+30 : drop 4573
+----- updateModel -----
+| action: drop
+31 : take 2115
+----- updateModel -----
+| action: take
+paquet 2102 supprimé de packageList
+paquet 2104 supprimé de packageList
+paquet 2105 supprimé de packageList
+paquet 2106 supprimé de packageList
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2113 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2104 : 2 kg to A
+Package 2105 : 2 kg to F
+Package 2106 : 2 kg to A
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2113 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 24
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+32 : take 2104
+----- updateModel -----
+| action: take
+paquet 2102 supprimé de packageList
+paquet 2106 supprimé de packageList
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2113 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2105 : 2 kg to F
+Package 2106 : 2 kg to A
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2113 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 22
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+------------- END case 3 ---------------
+33 : move A
+----- updateModel -----
+| action: move
+34 : drop 2115
+----- updateModel -----
+| action: drop
+35 : take 4571
+----- updateModel -----
+| action: take
+paquet 4568 supprimé de packageList
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4568 : 5 kg to B
+Package 4572 : 5 kg to F
+| totalLoadWeight: 10
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+36 : move E
+----- updateModel -----
+| action: move
+37 : drop 4571
+----- updateModel -----
+| action: drop
+38 : take 6715
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6703 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6703 : 1 kg to A
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 12
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+39 : take 6703
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6707 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6705 : 2 kg to B
+Package 6707 : 1 kg to A
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 11
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+40 : take 6707
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6711 supprimé de packageList
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6705 : 2 kg to B
+Package 6709 : 2 kg to B
+Package 6711 : 1 kg to A
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 10
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+41 : take 6711
+----- updateModel -----
+| action: take
+paquet 6701 supprimé de packageList
+paquet 6705 supprimé de packageList
+paquet 6709 supprimé de packageList
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6701 : 2 kg to B
+Package 6705 : 2 kg to B
+Package 6709 : 2 kg to B
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 9
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+42 : move A
+----- updateModel -----
+| action: move
+43 : drop 6715
+----- updateModel -----
+| action: drop
+44 : take 4568
+----- updateModel -----
+| action: take
+| remove packageList into store: ------ store : A ------
+| package list:
+Package 4572 : 5 kg to F
+| totalLoadWeight: 5
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+45 : move B
+----- updateModel -----
+| action: move
+46 : drop 4568
+----- updateModel -----
+| action: drop
+47 : take 2113
+----- updateModel -----
+| action: take
+paquet 2102 supprimé de packageList
+paquet 2105 supprimé de packageList
+paquet 2106 supprimé de packageList
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2105 : 2 kg to F
+Package 2106 : 2 kg to A
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+48 : take 2106
+----- updateModel -----
+| action: take
+paquet 2102 supprimé de packageList
+paquet 2105 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2102 : 2 kg to F
+Package 2105 : 2 kg to F
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: A  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+------------- END case 3 ---------------
+49 : move A
+----- updateModel -----
+| action: move
+50 : drop 2113
+----- updateModel -----
+| action: drop
+51 : take 4572
+----- updateModel -----
+| action: take
+| remove (plus de paquet a traiter): ------ store : A ------
+| package list:
+Package 4572 : 5 kg to F
+| totalLoadWeight: 5
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+52 : move F
+----- updateModel -----
+| action: move
+53 : drop 4572
+----- updateModel -----
+| action: drop
+54 : take 1187
+----- updateModel -----
+| action: take
+paquet 1165 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1169 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1165 : 1 kg to A
+Package 1166 : 2 kg to B
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+| totalLoadWeight: 31
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+55 : take 1165
+----- updateModel -----
+| action: take
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1169 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1166 : 2 kg to B
+Package 1166 : 1 kg to A
+Package 1167 : 2 kg to B
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+| totalLoadWeight: 30
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+56 : take 1166
+----- updateModel -----
+| action: take
+paquet 1166 supprimé de packageList
+paquet 1169 supprimé de packageList
+paquet 1170 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+Package 1169 : 1 kg to A
+Package 1170 : 2 kg to B
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+| totalLoadWeight: 29
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+57 : take 1169
+----- updateModel -----
+| action: take
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+paquet 1172 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+Package 1170 : 2 kg to B
+Package 1172 : 1 kg to A
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+| totalLoadWeight: 28
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+58 : move A
+----- updateModel -----
+| action: move
+59 : drop 1187
+----- updateModel -----
+| action: drop
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 2
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 2
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 2
+------------- END case 3 ---------------
+60 : move B
+----- updateModel -----
+| action: move
+61 : drop 6713
+----- updateModel -----
+| action: drop
+62 : take 2102
+----- updateModel -----
+| action: take
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2114 supprimé de packageList
+paquet 2105 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+Package 2105 : 2 kg to F
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+63 : take 2105
+----- updateModel -----
+| action: take
+paquet 2107 supprimé de packageList
+paquet 2108 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2107 : 2 kg to A
+Package 2108 : 2 kg to F
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+64 : take 2108
+----- updateModel -----
+| action: take
+paquet 2107 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2111 supprimé de packageList
+paquet 2112 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2107 : 2 kg to A
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2111 : 2 kg to F
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 16
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+65 : take 2111
+----- updateModel -----
+| action: take
+paquet 2107 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2114 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2107 : 2 kg to A
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2112 : 2 kg to A
+Package 2114 : 2 kg to F
+| totalLoadWeight: 14
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+66 : take 2114
+----- updateModel -----
+| action: take
+paquet 2107 supprimé de packageList
+paquet 2109 supprimé de packageList
+paquet 2110 supprimé de packageList
+paquet 2112 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2107 : 2 kg to A
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2112 : 2 kg to A
+| totalLoadWeight: 12
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+67 : take 2107
+----- updateModel -----
+| action: take
+paquet 2110 supprimé de packageList
+paquet 2112 supprimé de packageList
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2109 : 2 kg to A
+Package 2110 : 2 kg to A
+Package 2112 : 2 kg to A
+| totalLoadWeight: 10
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 0
+------------- END case 3 ---------------
+68 : move F
+----- updateModel -----
+| action: move
+69 : drop 2102
+----- updateModel -----
+| action: drop
+70 : take 1172
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1175 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 ajouté de packageList à tmp[0]
+paquet 1167 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1175 : 1 kg to A
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 31
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+71 : take 1175
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1178 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1178 : 1 kg to A
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 30
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+72 : take 1178
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1181 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1181 : 1 kg to A
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 29
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+73 : take 1181
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1184 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1184 : 1 kg to A
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 28
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+74 : take 1184
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1174 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1174 : 1 kg to E
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 27
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+75 : take 1174
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1177 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1177 : 1 kg to E
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 26
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+76 : take 1177
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1180 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1180 : 1 kg to E
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 25
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+77 : take 1180
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1183 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1183 : 1 kg to E
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 24
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+78 : take 1183
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1186 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1186 : 1 kg to E
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 23
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+79 : take 1186
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1166 supprimé de packageList
+paquet 1167 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+Package 1166 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 22
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+80 : take 1166
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+Package 1167 : 2 kg to B
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+81 : take 1167
+----- updateModel -----
+| action: take
+paquet 1170 supprimé de packageList
+paquet 1173 supprimé de packageList
+paquet 1176 supprimé de packageList
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1170 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+82 : move A
+----- updateModel -----
+| action: move
+83 : drop 2107
+----- updateModel -----
+| action: drop
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 6
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is take
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 6
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 3
+------------- END case 3 ---------------
+84 : move F
+----- updateModel -----
+| action: move
+85 : drop 6714
+----- updateModel -----
+| action: drop
+86 : take 1170
+----- updateModel -----
+| action: take
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+paquet 1173 ajouté de packageList à tmp[0]
+paquet 1176 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+Package 1173 : 2 kg to B
+Package 1176 : 2 kg to B
+| totalLoadWeight: 22
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+87 : take 1173
+----- updateModel -----
+| action: take
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+Package 1176 : 2 kg to B
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+88 : take 1176
+----- updateModel -----
+| action: take
+paquet 1179 supprimé de packageList
+paquet 1182 supprimé de packageList
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1179 : 2 kg to B
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+89 : take 1179
+----- updateModel -----
+| action: take
+paquet 1185 supprimé de packageList
+paquet 1188 supprimé de packageList
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1182 : 2 kg to B
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+| totalLoadWeight: 16
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is None
+| case 3 - store: B  actionsWeight: 0
+------------- END case 3 ---------------
+90 : move B
+----- updateModel -----
+| action: move
+91 : drop 1166
+----- updateModel -----
+| action: drop
+92 : take 2109
+----- updateModel -----
+| action: take
+paquet 2110 ajouté de packageList à tmp[0]
+paquet 2112 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2110 : 2 kg to A
+Package 2112 : 2 kg to A
+| totalLoadWeight: 14
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+93 : take 2110
+----- updateModel -----
+| action: take
+| remove packageList into store: ------ store : B ------
+| package list:
+Package 2112 : 2 kg to A
+| totalLoadWeight: 12
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+94 : take 2112
+----- updateModel -----
+| action: take
+| remove (plus de paquet a traiter): ------ store : B ------
+| package list:
+Package 2112 : 2 kg to A
+| totalLoadWeight: 12
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is take
+| case 3 - result is drop
+| case 3 - result is None
+| case 3 - store: F  actionsWeight: 3
+------------- END case 3 ---------------
+95 : move F
+----- updateModel -----
+| action: move
+96 : take 1182
+----- updateModel -----
+| action: take
+paquet 1185 ajouté de packageList à tmp[0]
+paquet 1188 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1185 : 2 kg to B
+Package 1188 : 2 kg to B
+| totalLoadWeight: 20
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+97 : take 1185
+----- updateModel -----
+| action: take
+| remove packageList into store: ------ store : F ------
+| package list:
+Package 1188 : 2 kg to B
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+98 : take 1188
+----- updateModel -----
+| action: take
+| remove (plus de paquet a traiter): ------ store : F ------
+| package list:
+Package 1188 : 2 kg to B
+| totalLoadWeight: 18
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+----- case_3_DataBasesNotEmpty -----
+| case 3 - result is None
+| case 3 - store: E  actionsWeight: 0
+------------- END case 3 ---------------
+99 : move E
+----- updateModel -----
+| action: move
+100 : drop 1174
+----- updateModel -----
+| action: drop
+101 : take 6701
+----- updateModel -----
+| action: take
+paquet 6705 ajouté de packageList à tmp[0]
+paquet 6709 ajouté de packageList à tmp[0]
+paquet 6713 ajouté de packageList à tmp[0]
+paquet 6714 ajouté de packageList à tmp[0]
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6705 : 2 kg to B
+Package 6709 : 2 kg to B
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 16
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+102 : take 6705
+----- updateModel -----
+| action: take
+paquet 6713 supprimé de packageList
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6709 : 2 kg to B
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 14
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+103 : take 6709
+----- updateModel -----
+| action: take
+paquet 6714 supprimé de packageList
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6713 : 2 kg to B
+Package 6714 : 1 kg to F
+| totalLoadWeight: 12
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+104 : take 6713
+----- updateModel -----
+| action: take
+| remove packageList into store: ------ store : E ------
+| package list:
+Package 6714 : 1 kg to F
+| totalLoadWeight: 10
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+105 : take 6714
+----- updateModel -----
+| action: take
+| remove (plus de paquet a traiter): ------ store : E ------
+| package list:
+Package 6714 : 1 kg to F
+| totalLoadWeight: 10
+| actionsWeight: 0
+------------------------------
+None
+------------------------------
+106 : move B
+----- updateModel -----
+| action: move
+107 : drop 1182
+----- updateModel -----
+| action: drop
+108 : move A
+----- updateModel -----
+| action: move
+109 : drop 2109
+----- updateModel -----
+| action: drop
+110 : move F
+----- updateModel -----
+| action: move
+111 : drop 6714
+----- updateModel -----
+| action: drop

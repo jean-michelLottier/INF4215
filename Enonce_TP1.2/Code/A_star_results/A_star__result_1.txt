@@ -1,0 +1,29 @@
+TEST successful
+------------------------------EXTRACT PLAN------------------------------
+agent PreviousPosition:G, CurrentPosition:E --> g = 827, h = 0, f = 827, action: ('moveAndDrop', 'E')
+agent PreviousPosition:G, CurrentPosition:G --> g = 632, h = 3, f = 635, action: ('take', <package.Package instance at 0x6e9c950>)
+agent PreviousPosition:I, CurrentPosition:G --> g = 629, h = 3, f = 632, action: ('moveAndDrop', 'G')
+agent PreviousPosition:I, CurrentPosition:I --> g = 538, h = 6, f = 544, action: ('take', <package.Package instance at 0x7ff4212d21b8>)
+agent PreviousPosition:A, CurrentPosition:I --> g = 535, h = 6, f = 541, action: ('moveAndDrop', 'I')
+agent PreviousPosition:B, CurrentPosition:A --> g = 425, h = 6, f = 431, action: ('moveAndDrop', 'A')
+agent PreviousPosition:B, CurrentPosition:B --> g = 350, h = 11, f = 361, action: ('take', <package.Package instance at 0x7ff421ebd6c8>)
+agent PreviousPosition:F, CurrentPosition:B --> g = 347, h = 11, f = 358, action: ('moveAndDrop', 'B')
+agent PreviousPosition:F, CurrentPosition:F --> g = 197, h = 14, f = 211, action: ('take', <package.Package instance at 0x7ff42201fa70>)
+agent PreviousPosition:B, CurrentPosition:F --> g = 194, h = 14, f = 208, action: ('moveAndDrop', 'F')
+agent PreviousPosition:B, CurrentPosition:B --> g = 54, h = 16, f = 70, action: ('take', <package.Package instance at 0x7ff4220638c0>)
+agent PreviousPosition:B, CurrentPosition:B --> g = 52, h = 16, f = 68, action: ('take', <package.Package instance at 0x7ff4226ab758>)
+agent PreviousPosition:A, CurrentPosition:B --> g = 50, h = 16, f = 66, action: ('moveAndDrop', 'B')
+1 : moveAndDrop B
+2 : take 5431
+3 : take 2102
+4 : moveAndDrop F
+5 : take 2317
+6 : moveAndDrop B
+7 : take 1873
+8 : moveAndDrop A
+9 : moveAndDrop I
+10 : take 2232
+11 : moveAndDrop G
+12 : take 2312
+13 : moveAndDrop E
+WASTED ENERGY: 827
